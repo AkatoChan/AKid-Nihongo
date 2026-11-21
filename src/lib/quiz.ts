@@ -38,7 +38,7 @@ export function makeQuiz(c:Content,mode:'quick'|'grammar',limit?:number):Questio
 }
 export function makeReadingQuiz(c:Content,onlyLong=false):Question[]{
   const rs=onlyLong?c.readings.filter(r=>r.id.startsWith('n4-long-')):c.readings;
-  return shuffle(rs).flatMap(r=>shuffle(r.questions).map((q,i)=>({id:`reading-${r.id}-${i}`,type:'reading' as const,section:'language' as const,task:'読解',
+  return shuffle(rs).flatMap(r=>r.questions.map((q,i)=>({id:`reading-${r.id}-${i}`,type:'reading' as const,section:'language' as const,task:'読解',
     prompt:q.question,sub:`${r.category}\n${r.text}`,options:q.options,answer:q.answer,explanation:q.explanation_vi})));
 }
 const kanjiWord=(v:Vocab)=>/[\u3400-\u9fff]/u.test(v.word)&&v.word.length<=5&&v.reading!==v.word&&v.reading.length>=2;
@@ -75,10 +75,10 @@ const valid=(q:Question)=>q.options?.length===4&&q.answer>=0&&q.answer<4;
  * Three stages follow 25/55/35-minute N4 allocations; question counts are approximations.
  */
 export function makeFullMock(c:Content):Question[]{
-  const context=shuffle(c.examBank.vocabulary).filter(valid).slice(0,11).map(q=>({...q,section:'vocabulary' as const}));
-  const vocabulary=shuffle([...makeKanjiReadingQuestions(c,9),...makeKanjiWritingQuestions(c,9),...context]).slice(0,28);
+  const context=shuffle(c.examBank.vocabulary).filter(valid).slice(0,12).map(q=>({...q,section:'vocabulary' as const}));
+  const vocabulary=[...makeKanjiReadingQuestions(c,8),...makeKanjiWritingQuestions(c,8),...context];
   const grammar=shuffle(c.examBank.grammar).filter(valid).slice(0,22).map(q=>({...q,section:'language' as const}));
-  const reading=makeReadingQuiz(c,true).slice(0,14).map(q=>({...q,section:'language' as const}));
-  const listening=shuffle(c.examBank.listening).filter(valid).slice(0,15).map(q=>({...q,section:'listening' as const}));
+  const reading=makeReadingQuiz(c,true).slice(0,18).map(q=>({...q,section:'language' as const}));
+  const listening=shuffle(c.examBank.listening).filter(valid).slice(0,18).map(q=>({...q,section:'listening' as const}));
   return [...vocabulary,...grammar,...reading,...listening];
 }
