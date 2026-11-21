@@ -37,7 +37,7 @@ export function makeQuiz(c:Content,mode:'quick'|'grammar',limit?:number):Questio
   return shuffle([...a,...b]).slice(0,limit||10);
 }
 export function makeReadingQuiz(c:Content,onlyLong=false):Question[]{
-  const rs=onlyLong?c.readings.filter(r=>r.id.startsWith('n4-long-')):c.readings;
+  const rs=onlyLong?c.readings.filter(r=>r.id.startsWith('n4-long-')||r.id.startsWith('akid-n4-')):c.readings;
   return shuffle(rs).flatMap(r=>r.questions.map((q,i)=>({id:`reading-${r.id}-${i}`,type:'reading' as const,section:'language' as const,task:'読解',
     prompt:q.question,sub:`${r.category}\n${r.text}`,options:q.options,answer:q.answer,explanation:q.explanation_vi})));
 }
