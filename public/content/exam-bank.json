@@ -1,0 +1,989 @@
+{
+  "vocabulary": [
+    {
+      "id": "vocab-01",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "朝、バスに（　）ので、学校に遅れました。",
+      "audioScript": null,
+      "options": [
+        "乗り遅れた",
+        "間に合った",
+        "着いた",
+        "直した"
+      ],
+      "answer": 0,
+      "explanation": "乗り遅れる: lỡ chuyến xe.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-02",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "明日は大事な試験があるので、今夜は（　）勉強します。",
+      "audioScript": null,
+      "options": [
+        "しっかり",
+        "だんだん",
+        "たまたま",
+        "ほとんど"
+      ],
+      "answer": 0,
+      "explanation": "しっかり: chăm chỉ, chắc chắn.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-03",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "この時計は古いですが、まだ（　）います。",
+      "audioScript": null,
+      "options": [
+        "動いて",
+        "泳いで",
+        "立って",
+        "呼んで"
+      ],
+      "answer": 0,
+      "explanation": "時計が動く: đồng hồ vẫn hoạt động.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-04",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "わからない漢字は辞書で（　）ください。",
+      "audioScript": null,
+      "options": [
+        "調べて",
+        "運んで",
+        "急いで",
+        "拾って"
+      ],
+      "answer": 0,
+      "explanation": "調べる: tra cứu.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-05",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "部屋が暗いので、電気を（　）ください。",
+      "audioScript": null,
+      "options": [
+        "つけて",
+        "消して",
+        "閉めて",
+        "止めて"
+      ],
+      "answer": 0,
+      "explanation": "電気をつける: bật đèn.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-06",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "雨が降りそうです。かさを（　）行きましょう。",
+      "audioScript": null,
+      "options": [
+        "持って",
+        "持たないで",
+        "捨てて",
+        "忘れて"
+      ],
+      "answer": 0,
+      "explanation": "持って行く: mang theo.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-07",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "駅までの（　）を教えてください。",
+      "audioScript": null,
+      "options": [
+        "道",
+        "味",
+        "音",
+        "色"
+      ],
+      "answer": 0,
+      "explanation": "道: đường đi.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-08",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "この薬は一日三回、食事の（　）で飲んでください。",
+      "audioScript": null,
+      "options": [
+        "あと",
+        "前だけ",
+        "間に",
+        "かわりに"
+      ],
+      "answer": 0,
+      "explanation": "食事のあとで: sau bữa ăn.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-09",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "今日はとても（　）ので、上着を着ました。",
+      "audioScript": null,
+      "options": [
+        "寒い",
+        "暑い",
+        "重い",
+        "明るい"
+      ],
+      "answer": 0,
+      "explanation": "寒い: lạnh.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-10",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "宿題が終わったら、友達と映画を（　）つもりです。",
+      "audioScript": null,
+      "options": [
+        "見る",
+        "売る",
+        "起きる",
+        "借りる"
+      ],
+      "answer": 0,
+      "explanation": "映画を見る: xem phim.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-11",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "パソコンが（　）しまったので、修理を頼みました。",
+      "audioScript": null,
+      "options": [
+        "こわれて",
+        "聞こえて",
+        "あいて",
+        "育って"
+      ],
+      "answer": 0,
+      "explanation": "こわれる: bị hỏng.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-12",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "来月から日本語の（　）に通います。",
+      "audioScript": null,
+      "options": [
+        "教室",
+        "病院",
+        "銀行",
+        "空港"
+      ],
+      "answer": 0,
+      "explanation": "教室: lớp học.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-13",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "試験に合格して、両親はとても（　）そうです。",
+      "audioScript": null,
+      "options": [
+        "うれし",
+        "悲し",
+        "ねむ",
+        "さびし"
+      ],
+      "answer": 0,
+      "explanation": "うれしそう: trông có vẻ vui.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-14",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "この川は深いですから、（　）ください。",
+      "audioScript": null,
+      "options": [
+        "泳がないで",
+        "泳いで",
+        "走って",
+        "渡って"
+      ],
+      "answer": 0,
+      "explanation": "Động từ ở thể ないで: đừng làm.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-15",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "スーパーで買った牛乳は冷蔵庫に（　）おきます。",
+      "audioScript": null,
+      "options": [
+        "入れて",
+        "出して",
+        "捨てて",
+        "返して"
+      ],
+      "answer": 0,
+      "explanation": "入れておく: bỏ vào để sẵn.",
+      "task": "語彙・文脈"
+    },
+    {
+      "id": "vocab-16",
+      "type": "word",
+      "section": "vocabulary",
+      "prompt": "先生の説明を聞いて、やっと（　）ました。",
+      "audioScript": null,
+      "options": [
+        "わかり",
+        "走り",
+        "割り",
+        "忘れ"
+      ],
+      "answer": 0,
+      "explanation": "やっとわかりました: cuối cùng đã hiểu.",
+      "task": "語彙・文脈"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-01",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "日本へ行く（　）、パスポートが必要です。",
+      "audioScript": null,
+      "options": [
+        "ために",
+        "のでに",
+        "ほどに",
+        "のにで"
+      ],
+      "answer": 0,
+      "explanation": "Vる + ために: để làm gì.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-02",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "毎日練習すれば、日本語が上手になる（　）思います。",
+      "audioScript": null,
+      "options": [
+        "と",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "～と思います: tôi nghĩ rằng.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-03",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "ここで写真を（　）はいけません。",
+      "audioScript": null,
+      "options": [
+        "撮って",
+        "撮る",
+        "撮り",
+        "撮ら"
+      ],
+      "answer": 0,
+      "explanation": "Vて + はいけません: không được làm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-04",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "宿題を（　）から、ゲームをします。",
+      "audioScript": null,
+      "options": [
+        "して",
+        "する",
+        "した",
+        "しない"
+      ],
+      "answer": 0,
+      "explanation": "Vてから: sau khi làm xong.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-05",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "雨が降っている（　）、試合があります。",
+      "audioScript": null,
+      "options": [
+        "のに",
+        "ために",
+        "ように",
+        "ばかり"
+      ],
+      "answer": 0,
+      "explanation": "～のに: mặc dù.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-06",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "この店は安い（　）、おいしいです。",
+      "audioScript": null,
+      "options": [
+        "し",
+        "と",
+        "で",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "～し～し: liệt kê lý do, đặc điểm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-07",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "山田さんは車を（　）ことができます。",
+      "audioScript": null,
+      "options": [
+        "運転する",
+        "運転して",
+        "運転した",
+        "運転しない"
+      ],
+      "answer": 0,
+      "explanation": "V辞書形 + ことができます: có thể làm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-08",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "先生に（　）本を返しました。",
+      "audioScript": null,
+      "options": [
+        "借りた",
+        "借りる",
+        "借りて",
+        "借りない"
+      ],
+      "answer": 0,
+      "explanation": "Mệnh đề bổ nghĩa danh từ: 本 mà mình đã mượn.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-09",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "日本へ行った（　）があります。",
+      "audioScript": null,
+      "options": [
+        "こと",
+        "もの",
+        "ため",
+        "ほう"
+      ],
+      "answer": 0,
+      "explanation": "Vた + ことがあります: đã từng.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-10",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "忘れない（　）、メモしておきます。",
+      "audioScript": null,
+      "options": [
+        "ように",
+        "ために",
+        "のに",
+        "ところ"
+      ],
+      "answer": 0,
+      "explanation": "～ように: để không quên.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-11",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "道がわからなかったら、人に（　）いいです。",
+      "audioScript": null,
+      "options": [
+        "聞いたら",
+        "聞き",
+        "聞くて",
+        "聞いては"
+      ],
+      "answer": 0,
+      "explanation": "Vたらいい: nên làm gì.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-12",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "母は私に部屋を（　）。",
+      "audioScript": null,
+      "options": [
+        "掃除させました",
+        "掃除できました",
+        "掃除します",
+        "掃除でしょう"
+      ],
+      "answer": 0,
+      "explanation": "Thể sai khiến: bắt/cho làm việc gì.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-13",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "明日、雨が（　）かもしれません。",
+      "audioScript": null,
+      "options": [
+        "降る",
+        "降って",
+        "降り",
+        "降ろう"
+      ],
+      "answer": 0,
+      "explanation": "Thể thông thường + かもしれません: có lẽ.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-14",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "昨日は忙しくて、昼ご飯を（　）時間もありませんでした。",
+      "audioScript": null,
+      "options": [
+        "食べる",
+        "食べて",
+        "食べた",
+        "食べます"
+      ],
+      "answer": 0,
+      "explanation": "V辞書形 + 時間: thời gian để làm việc gì.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-15",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "音楽を（　）ながら、勉強しています。",
+      "audioScript": null,
+      "options": [
+        "聞き",
+        "聞く",
+        "聞いて",
+        "聞いた"
+      ],
+      "answer": 0,
+      "explanation": "Vます bỏ ます + ながら: vừa... vừa...",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-16",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "電車に乗る（　）、切符を買ってください。",
+      "audioScript": null,
+      "options": [
+        "前に",
+        "あとに",
+        "うちで",
+        "ようで"
+      ],
+      "answer": 0,
+      "explanation": "V辞書形 + 前に: trước khi.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-17",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "試験が（　）、旅行に行きたいです。",
+      "audioScript": null,
+      "options": [
+        "終わったら",
+        "終わるながら",
+        "終わってもで",
+        "終わりて"
+      ],
+      "answer": 0,
+      "explanation": "Vたら: nếu/sau khi.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-18",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "漢字をもっと覚える（　）にしています。",
+      "audioScript": null,
+      "options": [
+        "よう",
+        "こと",
+        "ため",
+        "ばかり"
+      ],
+      "answer": 0,
+      "explanation": "V辞書形 + ようにしています: cố gắng duy trì thói quen.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-19",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "あの人は日本語が上手（　）です。",
+      "audioScript": null,
+      "options": [
+        "そう",
+        "よう",
+        "ばかり",
+        "まで"
+      ],
+      "answer": 0,
+      "explanation": "Tính từ な (bỏ な) + そう: trông có vẻ.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-20",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "この店ではカードで（　）ことができます。",
+      "audioScript": null,
+      "options": [
+        "払う",
+        "払って",
+        "払った",
+        "払い"
+      ],
+      "answer": 0,
+      "explanation": "V辞書形 + ことができます: có thể.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-21",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "まだご飯を（　）いません。",
+      "audioScript": null,
+      "options": [
+        "食べて",
+        "食べる",
+        "食べた",
+        "食べます"
+      ],
+      "answer": 0,
+      "explanation": "まだ + Vていません: chưa làm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-22",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "あしたは学校へ（　）なくてもいいです。",
+      "audioScript": null,
+      "options": [
+        "行か",
+        "行き",
+        "行く",
+        "行って"
+      ],
+      "answer": 0,
+      "explanation": "Vない bỏ い + なくてもいい: không cần làm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-23",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "ここに名前を（　）ください。",
+      "audioScript": null,
+      "options": [
+        "書いて",
+        "書く",
+        "書き",
+        "書いた"
+      ],
+      "answer": 0,
+      "explanation": "Vてください: hãy làm.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-24",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "その話は前に聞いた（　）があります。",
+      "audioScript": null,
+      "options": [
+        "こと",
+        "もの",
+        "はず",
+        "ため"
+      ],
+      "answer": 0,
+      "explanation": "Vたことがある: đã từng.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-25",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "疲れている（　）、今日は早く帰ります。",
+      "audioScript": null,
+      "options": [
+        "ので",
+        "のに",
+        "ために",
+        "ように"
+      ],
+      "answer": 0,
+      "explanation": "～ので: bởi vì.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-26",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "兄は私（　）背が高いです。",
+      "audioScript": null,
+      "options": [
+        "より",
+        "ほど",
+        "まで",
+        "しか"
+      ],
+      "answer": 0,
+      "explanation": "A は B より...: so sánh hơn.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-27",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "あの映画は思った（　）面白くありませんでした。",
+      "audioScript": null,
+      "options": [
+        "ほど",
+        "より",
+        "まで",
+        "ので"
+      ],
+      "answer": 0,
+      "explanation": "～ほど...ない: không... đến mức như.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-28",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "この本を（　）もいいですか。",
+      "audioScript": null,
+      "options": [
+        "借りて",
+        "借りる",
+        "借りた",
+        "借り"
+      ],
+      "answer": 0,
+      "explanation": "Vてもいいですか: xin phép.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-29",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "窓が（　）あります。誰が開けましたか。",
+      "audioScript": null,
+      "options": [
+        "開けて",
+        "開く",
+        "開いた",
+        "開き"
+      ],
+      "answer": 0,
+      "explanation": "Tha động từ Vてあります: trạng thái kết quả.",
+      "task": "文法・文脈"
+    },
+    {
+      "id": "grammar-30",
+      "type": "grammar",
+      "section": "language",
+      "prompt": "もっと早く（　）ばよかったです。",
+      "audioScript": null,
+      "options": [
+        "起きれ",
+        "起き",
+        "起きる",
+        "起きて"
+      ],
+      "answer": 0,
+      "explanation": "V条件形+ばよかった: giá mà (đã)...",
+      "task": "文法・文脈"
+    }
+  ],
+  "listening": [
+    {
+      "id": "listening-01",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "二人はどこで会いますか。",
+      "audioScript": "女の人は明日の予定について話しています。\n女：明日は九時に駅で会いましょう。\n男：九時ですね。どの出口ですか。\n女：東口の前です。",
+      "options": [
+        "駅の東口",
+        "学校の前",
+        "西口",
+        "図書館"
+      ],
+      "answer": 0,
+      "explanation": "Hẹn 9h trước cửa Đông của nhà ga.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-02",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "男の人は何を買いますか。",
+      "audioScript": "男：すみません、このシャツは小さいですね。もっと大きいサイズがありますか。\n女：はい、こちらの青いシャツはどうですか。\n男：いいですね。これをください。",
+      "options": [
+        "赤いシャツ",
+        "青いシャツ",
+        "くつ",
+        "かばん"
+      ],
+      "answer": 1,
+      "explanation": "Người đàn ông mua áo xanh.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-03",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "会議は何時からですか。",
+      "audioScript": "女：会議は三時からでしたね。\n男：いいえ、四時からに変わりました。\n女：そうですか。じゃ、三時半に来ます。",
+      "options": [
+        "二時",
+        "三時",
+        "三時半",
+        "四時"
+      ],
+      "answer": 3,
+      "explanation": "Cuộc họp được đổi sang 16 giờ.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-04",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "二人は何を食べますか。",
+      "audioScript": "男：今日の昼ご飯、何にしますか。\n女：私はカレーにします。\n男：じゃ、僕も同じものをください。",
+      "options": [
+        "ラーメン",
+        "カレー",
+        "すし",
+        "サンドイッチ"
+      ],
+      "answer": 1,
+      "explanation": "Cả hai chọn cà ri.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-05",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "明日の天気について何と言っていますか。",
+      "audioScript": "女：今日は寒いですね。\n男：そうですね。明日はもっと寒くなるそうです。\n女：じゃ、コートを着て行きます。",
+      "options": [
+        "暑くなる",
+        "寒くなる",
+        "雨がやむ",
+        "風がなくなる"
+      ],
+      "answer": 1,
+      "explanation": "Ngày mai sẽ lạnh hơn.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-06",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "男の人は何をしますか。",
+      "audioScript": "男：図書館の本を返したいんですが。\n女：今日は休みですから、入り口の箱に入れてください。\n男：わかりました。",
+      "options": [
+        "箱に本を入れる",
+        "本を買う",
+        "明日電話する",
+        "図書館の中に入る"
+      ],
+      "answer": 0,
+      "explanation": "Thư viện nghỉ, bỏ sách vào hộp trước cửa.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-07",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "女の人は何をあげましたか。",
+      "audioScript": "女：お誕生日おめでとう。これ、プレゼントです。\n男：ありがとう。でも、どうして本だとわかったんですか。\n女：本を読むのが好きだと聞きましたから。",
+      "options": [
+        "時計",
+        "本",
+        "かさ",
+        "花"
+      ],
+      "answer": 1,
+      "explanation": "Quà sinh nhật là sách.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-08",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "女の人はどうやって来ましたか。",
+      "audioScript": "男：山田さん、電車で来たんですか。\n女：いいえ、バスです。電車は今朝止まっていましたから。",
+      "options": [
+        "電車で",
+        "車で",
+        "バスで",
+        "自転車で"
+      ],
+      "answer": 2,
+      "explanation": "Đi xe buýt vì tàu không chạy.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-09",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "二人はいつテニスをしますか。",
+      "audioScript": "女：週末、テニスをしませんか。\n男：土曜日はアルバイトがありますが、日曜日なら大丈夫です。\n女：では、日曜日にしましょう。",
+      "options": [
+        "金曜日",
+        "土曜日",
+        "日曜日",
+        "月曜日"
+      ],
+      "answer": 2,
+      "explanation": "Chơi tennis chủ nhật.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-10",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "男の人は何を注文しますか。",
+      "audioScript": "男：コーヒーを一つください。\n女：ホットですか、アイスですか。\n男：今日は暑いので、冷たいのをお願いします。",
+      "options": [
+        "温かいコーヒー",
+        "冷たいコーヒー",
+        "お茶",
+        "ジュース"
+      ],
+      "answer": 1,
+      "explanation": "Chọn cà phê lạnh.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-11",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "どこで右に曲がりますか。",
+      "audioScript": "女：すみません、郵便局はどこですか。\n男：この道をまっすぐ行って、二つ目の信号を右に曲がってください。\n女：ありがとうございます。",
+      "options": [
+        "一つ目の信号",
+        "二つ目の信号",
+        "三つ目の信号",
+        "駅の前"
+      ],
+      "answer": 1,
+      "explanation": "Rẽ phải ở đèn giao thông thứ hai.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-12",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "遠足があるかどうか、いつわかりますか。",
+      "audioScript": "男：明日の遠足は雨でもありますか。\n女：雨なら来週に変わります。明日の朝七時に学校のホームページで知らせます。",
+      "options": [
+        "今夜",
+        "明日の朝七時",
+        "明日の昼",
+        "来週"
+      ],
+      "answer": 1,
+      "explanation": "Sáng mai 7h trường sẽ thông báo.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-13",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "薬は一日に何回飲みますか。",
+      "audioScript": "女：この薬はいつ飲めばいいですか。\n男：朝と夜、ご飯のあとに飲んでください。昼は飲まなくてもいいです。",
+      "options": [
+        "一回",
+        "二回",
+        "三回",
+        "四回"
+      ],
+      "answer": 1,
+      "explanation": "Uống sáng và tối, sau bữa ăn.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-14",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "男の人は何時に来ますか。",
+      "audioScript": "男：映画は六時半からですね。\n女：はい。でも切符を買いたいので、六時に来てください。\n男：わかりました。",
+      "options": [
+        "五時半",
+        "六時",
+        "六時半",
+        "七時"
+      ],
+      "answer": 1,
+      "explanation": "Có mặt 18h để mua vé trước phim 18h30.",
+      "task": "聴解"
+    },
+    {
+      "id": "listening-15",
+      "type": "listening",
+      "section": "listening",
+      "prompt": "かばんはいくらになりますか。",
+      "audioScript": "女：このかばん、いくらですか。\n男：三千円です。今日は二割引きですよ。\n女：じゃ、買います。",
+      "options": [
+        "2400円",
+        "2600円",
+        "2800円",
+        "3000円"
+      ],
+      "answer": 0,
+      "explanation": "3.000 yên giảm 20% = 2.400 yên.",
+      "task": "聴解"
+    }
+  ],
+  "metadata": {
+    "source": "Tự biên soạn cho Nihongo Master N4 v0.2",
+    "license": "CC0-1.0 (original item authoring only)",
+    "official": false
+  }
+}

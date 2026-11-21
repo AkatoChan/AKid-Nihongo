@@ -1,0 +1,19 @@
+[package]
+name = "nihongo-master-n4"
+version = "0.2.0"
+description = "Offline JLPT N4 study companion"
+authors = ["Nihongo Master N4 Contributors"]
+edition = "2021"
+
+[lib]
+name = "nihongo_master_n4_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-sql = { version = "2", features = ["sqlite"] }
+
+serde_json = "1"

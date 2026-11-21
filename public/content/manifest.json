@@ -1,0 +1,27 @@
+{
+  "content_version": "openjlpt-main",
+  "corpus": "full",
+  "downloaded_at": "2026-11-20T13:21:06.700Z",
+  "source_name": "OpenJLPT, assembled from Waller, JMdict/KANJIDIC2, Tatoeba + original N4 Vietnamese lessons",
+  "source_url": "https://github.com/evanclan/OpenJLPT",
+  "license": "CC BY-SA 4.0 (OpenJLPT); see DATA-LICENSE.md",
+  "counts": {
+    "n4_vocab": 636,
+    "n5_vocab": 675,
+    "n4_grammar": 124,
+    "n5_grammar": 81,
+    "n4_kanji": 169,
+    "n5_kanji": 84,
+    "readings": 8
+  },
+  "upstream_ref": "main",
+  "sha256": {
+    "n5-kanji": "c81458831e5e2e807ce0bb81a5af971d493ac8a9243701005eb57fe353990fce",
+    "n4-grammar": "7b388b8636ab7d9eaed02484d7d6be1c2468885f2354e28c02a29c2dfeb8d70d",
+    "n5-grammar": "fb8151594263f5e98372adc51d4498578bc198e22259b161fba524eea2faa0bd",
+    "n4-vocab": "b38512a6dc1e06a3615f377b3e58184c4a85b6f769c2e3f58f2a4ef0e1810927",
+    "n4-kanji": "a034d51bea0ee6c9ee1cc48b1cc83d9602641b9f5d38d99a55f5136f447a58d8",
+    "n5-vocab": "cbb221c9a3a92108fcd02fb088d9afacc70bc8c96570d5730425de0a49dad5f3"
+  },
+  "modifications": "Retained source entries, added curated Vietnamese translations; appended original practice items."
+}

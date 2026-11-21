@@ -1,0 +1,654 @@
+[
+  {
+    "id": "original-reading-01",
+    "title": "Đi đến thư viện",
+    "category": "図書館で",
+    "level": "N4",
+    "text": "昨日、私は友達と図書館へ行きました。日本語の本を二冊借りました。来週の月曜日までに返さなければなりません。帰りに駅の近くでコーヒーを飲みました。",
+    "questions": [
+      {
+        "question": "昨日、どこへ行きましたか。",
+        "options": [
+          "学校",
+          "図書館",
+          "映画館",
+          "病院"
+        ],
+        "answer": 1,
+        "explanation_vi": "Bạn ấy đã tới thư viện."
+      },
+      {
+        "question": "何冊借りましたか。",
+        "options": [
+          "一冊",
+          "三冊",
+          "二冊",
+          "四冊"
+        ],
+        "answer": 2,
+        "explanation_vi": "Đã mượn hai cuốn sách."
+      },
+      {
+        "question": "いつまでに返しますか。",
+        "options": [
+          "今日",
+          "来週の月曜日",
+          "日曜日",
+          "来月"
+        ],
+        "answer": 1,
+        "explanation_vi": "Hạn trả là thứ Hai tuần sau."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-02",
+    "title": "Thông báo ở trường",
+    "category": "学校のお知らせ",
+    "level": "N4",
+    "text": "来週の金曜日に学校で日本語のスピーチ大会があります。参加したい学生は、火曜日までに先生に名前を教えてください。大会は午後二時から始まります。",
+    "questions": [
+      {
+        "question": "何曜日に大会がありますか。",
+        "options": [
+          "火曜日",
+          "木曜日",
+          "金曜日",
+          "日曜日"
+        ],
+        "answer": 2,
+        "explanation_vi": "Cuộc thi diễn ra thứ Sáu."
+      },
+      {
+        "question": "何時に始まりますか。",
+        "options": [
+          "午前二時",
+          "午後二時",
+          "午後四時",
+          "午前十時"
+        ],
+        "answer": 1,
+        "explanation_vi": "Bắt đầu lúc 2 giờ chiều."
+      },
+      {
+        "question": "参加する人は何をしますか。",
+        "options": [
+          "先生に名前を教える",
+          "早く帰る",
+          "本を返す",
+          "電話を買う"
+        ],
+        "answer": 0,
+        "explanation_vi": "Người tham gia phải báo tên cho giáo viên."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-03",
+    "title": "Tin nhắn hẹn gặp",
+    "category": "友達からのメール",
+    "level": "N4",
+    "text": "明日いっしょに映画を見ませんか。午後三時の映画を見ようと思っています。二時半に駅の前で会いましょう。雨が降ったら、駅の中のカフェで待っていてください。",
+    "questions": [
+      {
+        "question": "映画は何時からですか。",
+        "options": [
+          "二時半",
+          "三時",
+          "四時",
+          "六時"
+        ],
+        "answer": 1,
+        "explanation_vi": "Bộ phim bắt đầu lúc 3 giờ."
+      },
+      {
+        "question": "雨が降ったらどこで待ちますか。",
+        "options": [
+          "公園",
+          "学校",
+          "駅の中のカフェ",
+          "映画館の外"
+        ],
+        "answer": 2,
+        "explanation_vi": "Nếu trời mưa sẽ chờ ở quán cà phê trong ga."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-04",
+    "title": "Sức khỏe và thói quen",
+    "category": "毎日の生活",
+    "level": "N4",
+    "text": "私は最近、健康のために毎朝三十分歩くようにしています。前はバスで学校へ行きましたが、今は天気がいい日は自転車で行きます。雨の日はバスに乗ります。",
+    "questions": [
+      {
+        "question": "毎朝何をしていますか。",
+        "options": [
+          "三十分歩く",
+          "走る",
+          "泳ぐ",
+          "寝る"
+        ],
+        "answer": 0,
+        "explanation_vi": "Mỗi sáng đi bộ 30 phút."
+      },
+      {
+        "question": "雨の日はどうやって学校へ行きますか。",
+        "options": [
+          "歩いて",
+          "自転車で",
+          "電車で",
+          "バスで"
+        ],
+        "answer": 3,
+        "explanation_vi": "Ngày mưa đi bằng xe buýt."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-05",
+    "title": "Ở cửa hàng",
+    "category": "お店で",
+    "level": "N4",
+    "text": "この店では、土曜日と日曜日にかばんを二割引で売っています。しかし、くつは安くなりません。店は朝十時から夜八時まで開いています。",
+    "questions": [
+      {
+        "question": "何が安くなりますか。",
+        "options": [
+          "くつ",
+          "かばん",
+          "本",
+          "時計"
+        ],
+        "answer": 1,
+        "explanation_vi": "Túi xách được giảm giá."
+      },
+      {
+        "question": "お店は何時に閉まりますか。",
+        "options": [
+          "午前八時",
+          "午後六時",
+          "午後八時",
+          "午後十時"
+        ],
+        "answer": 2,
+        "explanation_vi": "Cửa hàng đóng lúc 8 giờ tối."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-06",
+    "title": "Kỳ nghỉ",
+    "category": "夏休みの予定",
+    "level": "N4",
+    "text": "今年の夏休みは京都へ旅行するつもりです。ホテルはもう予約してありますが、新幹線の切符はまだ買っていません。出発する前に買っておこうと思います。",
+    "questions": [
+      {
+        "question": "ホテルはどうなっていますか。",
+        "options": [
+          "予約した",
+          "まだ探している",
+          "キャンセルした",
+          "満室だ"
+        ],
+        "answer": 0,
+        "explanation_vi": "Khách sạn đã đặt rồi."
+      },
+      {
+        "question": "まだ買っていないものは何ですか。",
+        "options": [
+          "おみやげ",
+          "新幹線の切符",
+          "かばん",
+          "本"
+        ],
+        "answer": 1,
+        "explanation_vi": "Chưa mua vé tàu Shinkansen."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-07",
+    "title": "Công việc làm thêm",
+    "category": "アルバイト",
+    "level": "N4",
+    "text": "田中さんは毎週月曜日から木曜日までレストランで働いています。金曜日は大学の授業が遅くまであるので、アルバイトをしません。土曜日には友達とテニスをすることが多いです。",
+    "questions": [
+      {
+        "question": "田中さんは金曜日に働きますか。",
+        "options": [
+          "はい",
+          "いいえ",
+          "毎週ではない",
+          "わかりません"
+        ],
+        "answer": 1,
+        "explanation_vi": "Thứ Sáu không làm do có giờ học."
+      },
+      {
+        "question": "土曜日によく何をしますか。",
+        "options": [
+          "勉強",
+          "買い物",
+          "テニス",
+          "料理"
+        ],
+        "answer": 2,
+        "explanation_vi": "Thường chơi tennis với bạn."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "original-reading-08",
+    "title": "Quy định nhà ở",
+    "category": "アパートのルール",
+    "level": "N4",
+    "text": "このアパートでは、夜十時以降に大きな音を出してはいけません。ごみは月曜日と木曜日の朝に出してください。自転車は建物の右側に置くことができます。",
+    "questions": [
+      {
+        "question": "何時以降は静かにしなければなりませんか。",
+        "options": [
+          "午後八時",
+          "午後九時",
+          "午後十時",
+          "午前十時"
+        ],
+        "answer": 2,
+        "explanation_vi": "Sau 10 giờ tối phải giữ yên lặng."
+      },
+      {
+        "question": "ごみを出せる曜日はどれですか。",
+        "options": [
+          "月曜日と木曜日",
+          "火曜日と金曜日",
+          "水曜日だけ",
+          "日曜日"
+        ],
+        "answer": 0,
+        "explanation_vi": "Đổ rác vào sáng thứ Hai và thứ Năm."
+      }
+    ],
+    "source": "Tự biên soạn"
+  },
+  {
+    "id": "n4-long-library-01",
+    "title": "Thư viện đổi giờ mở cửa",
+    "category": "お知らせ・図書館",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "市の図書館からのお知らせです。来月の一日から、図書館が開いている時間が変わります。今までは午前九時から午後六時まででしたが、来月から平日は午後八時まで利用できるようになります。ただし、土曜日と日曜日は今までと同じ午後六時に閉まります。また、毎週月曜日は休みですが、月曜日が祝日の場合は開いていて、その次の日の火曜日が休みになります。本を借りるときは、一人五冊まで、二週間借りることができます。返す日が休みの日だったら、次に図書館が開く日までに返してください。図書館の前にある箱には、休みの日でも本を返すことができます。",
+    "questions": [
+      {
+        "question": "来月から、平日は何時まで図書館を使えますか。",
+        "options": [
+          "午後六時",
+          "午後七時",
+          "午後八時",
+          "午後九時"
+        ],
+        "answer": 2,
+        "explanation_vi": "Từ tháng tới, ngày thường thư viện mở đến 8 giờ tối."
+      },
+      {
+        "question": "日曜日、図書館は何時に閉まりますか。",
+        "options": [
+          "午後五時",
+          "午後六時",
+          "午後八時",
+          "休みです"
+        ],
+        "answer": 1,
+        "explanation_vi": "Thứ bảy và chủ nhật vẫn đóng cửa lúc 18 giờ."
+      },
+      {
+        "question": "月曜日が祝日のとき、いつ休みになりますか。",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "水曜日",
+          "日曜日"
+        ],
+        "answer": 1,
+        "explanation_vi": "Nếu thứ hai là ngày lễ, thư viện mở và nghỉ bù thứ ba."
+      },
+      {
+        "question": "本を何冊まで借りることができますか。",
+        "options": [
+          "三冊",
+          "四冊",
+          "五冊",
+          "六冊"
+        ],
+        "answer": 2,
+        "explanation_vi": "Mỗi người mượn tối đa 5 cuốn."
+      },
+      {
+        "question": "休みの日に本を返したいとき、どうしますか。",
+        "options": [
+          "前の箱に入れる",
+          "家に送る",
+          "駅へ持って行く",
+          "次の週まで待つだけ"
+        ],
+        "answer": 0,
+        "explanation_vi": "Có thể trả sách qua hộp phía trước thư viện trong ngày nghỉ."
+      }
+    ]
+  },
+  {
+    "id": "n4-long-cafe-02",
+    "title": "Tuyển nhân viên quán cà phê",
+    "category": "アルバイト・募集",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "駅の近くにある「さくらカフェ」では、アルバイトを募集しています。仕事はお客さんに飲み物を出したり、店の中を掃除したりすることです。火曜日から金曜日までは午後四時から九時まで、土曜日と日曜日は午前十時から午後六時まで働く人を探しています。一週間に三日以上働ける人がいいです。日本語で簡単な会話ができれば、カフェで働いたことがなくても大丈夫です。時給は千百円です。土曜日と日曜日は百円高くなります。働き始める前に、店長から仕事のやり方を教えてもらえます。申し込みたい人は、今月の二十五日までに電話をしてください。面接は来月の二日です。",
+    "questions": [
+      {
+        "question": "この仕事でしないことは何ですか。",
+        "options": [
+          "飲み物を出す",
+          "店を掃除する",
+          "料理を作る",
+          "お客さんと話す"
+        ],
+        "answer": 2,
+        "explanation_vi": "Thông báo không nói công việc nấu món ăn."
+      },
+      {
+        "question": "土曜日の時給はいくらですか。",
+        "options": [
+          "1000円",
+          "1100円",
+          "1200円",
+          "1300円"
+        ],
+        "answer": 2,
+        "explanation_vi": "1.100 + 100 = 1.200 yên một giờ vào cuối tuần."
+      },
+      {
+        "question": "どんな人が申し込めますか。",
+        "options": [
+          "経験がある人だけ",
+          "一週間に三日以上働ける人",
+          "毎日働ける人だけ",
+          "日本語が全くできない人"
+        ],
+        "answer": 1,
+        "explanation_vi": "Tìm người làm ít nhất 3 ngày/tuần và giao tiếp Nhật đơn giản."
+      },
+      {
+        "question": "申し込みはいつまでですか。",
+        "options": [
+          "今月の25日",
+          "来月の2日",
+          "今月の2日",
+          "来月の25日"
+        ],
+        "answer": 0,
+        "explanation_vi": "Hạn đăng ký là ngày 25 tháng này, còn ngày 2 tháng sau là phỏng vấn."
+      }
+    ]
+  },
+  {
+    "id": "n4-long-trip-03",
+    "title": "Kế hoạch đi Kyoto bị thay đổi",
+    "category": "メール・旅行",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "田中さんへ。土曜日の京都旅行について連絡します。最初は朝八時の電車に乗る予定でしたが、天気予報によると午前中は雨が強いそうです。それで、十時の電車に変えようと思います。京都駅には十一時ごろ着きます。駅で昼ご飯を食べてから、お寺を見に行きましょう。午後三時ごろには雨がやむそうなので、時間があれば公園を散歩したいです。私はカメラを持って行くので、田中さんは傘を二本持って来てもらえませんか。帰りは夜七時の電車を考えています。もしその時間が遅すぎたら、五時半の電車でもいいです。都合が悪かったら金曜日までに教えてください。山本より。",
+    "questions": [
+      {
+        "question": "電車の時間を変える理由は何ですか。",
+        "options": [
+          "電車がこわれたから",
+          "午前中に雨が強いから",
+          "朝ご飯を食べたいから",
+          "友達が病気だから"
+        ],
+        "answer": 1,
+        "explanation_vi": "Dự báo buổi sáng mưa to nên đổi chuyến tàu."
+      },
+      {
+        "question": "京都駅に何時ごろ着きますか。",
+        "options": [
+          "八時",
+          "十時",
+          "十一時",
+          "午後三時"
+        ],
+        "answer": 2,
+        "explanation_vi": "Dự kiến đến ga Kyoto khoảng 11 giờ."
+      },
+      {
+        "question": "田中さんに何を持って来てほしいですか。",
+        "options": [
+          "カメラ",
+          "傘二本",
+          "お弁当",
+          "電車の切符"
+        ],
+        "answer": 1,
+        "explanation_vi": "Yamamoto mang máy ảnh, nhờ Tanaka mang hai chiếc ô."
+      },
+      {
+        "question": "帰りの電車について正しいのはどれですか。",
+        "options": [
+          "必ず五時半に乗る",
+          "夜七時が第一希望",
+          "朝八時に乗る",
+          "電車では帰らない"
+        ],
+        "answer": 1,
+        "explanation_vi": "Ưu tiên tàu 19h, nếu muộn có thể đi 17h30."
+      },
+      {
+        "question": "田中さんはいつまでに返事をしますか。",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "土曜日",
+          "日曜日"
+        ],
+        "answer": 1,
+        "explanation_vi": "Nếu bất tiện cần báo trước/thứ sáu."
+      }
+    ]
+  },
+  {
+    "id": "n4-long-school-04",
+    "title": "Ngày hội thể thao của trường",
+    "category": "学校・案内",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "来週の日曜日、学校でスポーツ大会があります。学生は九時までに体育館の前に集まってください。九時半から開会式が始まり、十時からバスケットボールとバレーボールの試合を行います。昼休みは十二時から一時までです。お弁当は学校で用意しますが、飲み物は自分で持って来てください。午後は二時からリレーがあり、三時半に結果を発表します。雨が降った場合も体育館の中で大会を行うので、予定は変わりません。試合に出ない学生も、友達を応援したり、準備を手伝ったりできます。参加する学生は、金曜日までに先生に名前を伝えてください。体の調子が悪い人は、無理をしないで休んでください。",
+    "questions": [
+      {
+        "question": "学生は何時までに集まりますか。",
+        "options": [
+          "九時",
+          "九時半",
+          "十時",
+          "十二時"
+        ],
+        "answer": 0,
+        "explanation_vi": "Tập trung trước 9h tại trước nhà thể chất."
+      },
+      {
+        "question": "学生が自分で用意するものは何ですか。",
+        "options": [
+          "お弁当",
+          "飲み物",
+          "ボール",
+          "名前の紙"
+        ],
+        "answer": 1,
+        "explanation_vi": "Trường chuẩn bị cơm hộp, học sinh tự mang nước uống."
+      },
+      {
+        "question": "雨の日はどうなりますか。",
+        "options": [
+          "中止する",
+          "来週に変える",
+          "体育館で行う",
+          "午後だけ行う"
+        ],
+        "answer": 2,
+        "explanation_vi": "Nếu mưa vẫn tổ chức trong nhà thể chất."
+      },
+      {
+        "question": "結果を発表するのはいつですか。",
+        "options": [
+          "一時",
+          "二時",
+          "三時半",
+          "四時半"
+        ],
+        "answer": 2,
+        "explanation_vi": "Công bố kết quả lúc 15h30."
+      },
+      {
+        "question": "試合に出ない人はどうできますか。",
+        "options": [
+          "何もできない",
+          "応援や準備を手伝える",
+          "家に帰らなければならない",
+          "必ずリレーに出る"
+        ],
+        "answer": 1,
+        "explanation_vi": "Không thi đấu vẫn có thể cổ vũ và giúp chuẩn bị."
+      }
+    ]
+  },
+  {
+    "id": "n4-long-apartment-05",
+    "title": "Quy định phân loại rác ở chung cư",
+    "category": "生活・お知らせ",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "アパートに住んでいる皆さんへ。ごみを出す曜日が来月から少し変わります。燃えるごみは月曜日と木曜日の朝に出してください。びんと缶は毎週水曜日、紙と段ボールは第二と第四金曜日です。ごみは朝八時までにアパートの入り口の右にある場所へ持って行ってください。前の夜に出してはいけません。びんと缶は中を洗ってから、別々の袋に入れてください。大きな家具を捨てたいときは、先に管理人に相談してください。また、使わなくなった本や服は、一階の小さな部屋に置くことができます。必要な人が自由に持って帰れるようになっています。みんなで気持ちよく生活するために、ルールを守りましょう。",
+    "questions": [
+      {
+        "question": "燃えるごみはいつ出しますか。",
+        "options": [
+          "月曜日と木曜日",
+          "火曜日と金曜日",
+          "水曜日だけ",
+          "日曜日だけ"
+        ],
+        "answer": 0,
+        "explanation_vi": "Rác đốt được thu thứ hai và thứ năm."
+      },
+      {
+        "question": "ごみを出す場所はどこですか。",
+        "options": [
+          "駅の前",
+          "アパート入り口の右",
+          "アパートの屋上",
+          "一階の小さな部屋"
+        ],
+        "answer": 1,
+        "explanation_vi": "Điểm bỏ rác ở bên phải lối vào căn hộ."
+      },
+      {
+        "question": "びんと缶はどうしますか。",
+        "options": [
+          "洗わずに捨てる",
+          "同じ袋に入れる",
+          "洗って別々の袋に入れる",
+          "月曜日に出す"
+        ],
+        "answer": 2,
+        "explanation_vi": "Rửa sạch rồi cho chai/lon vào túi riêng."
+      },
+      {
+        "question": "大きな家具を捨てる前に、何をしますか。",
+        "options": [
+          "管理人に相談する",
+          "友達を呼ぶ",
+          "駅に持って行く",
+          "本を読む"
+        ],
+        "answer": 0,
+        "explanation_vi": "Trước khi bỏ đồ nội thất lớn phải trao đổi với quản lý."
+      }
+    ]
+  },
+  {
+    "id": "n4-long-doctor-06",
+    "title": "Lời dặn của bác sĩ",
+    "category": "会話・健康",
+    "level": "N4",
+    "source": "Tự biên soạn v0.2",
+    "difficulty": "中",
+    "text": "昨日から頭が痛くて、少し熱もあったので、今朝病院へ行きました。医者は「風邪ですね。今日はゆっくり休んでください」と言いました。そして、薬を三日分くれました。一日に三回、朝ご飯、昼ご飯、晩ご飯のあとで飲まなければなりません。薬を飲んでから、車を運転しないほうがいいそうです。たくさん水を飲み、早く寝るように言われました。もし三日たっても熱が下がらなかったら、もう一度病院へ来てくださいと言われました。私は明日友達と山に登る約束をしていましたが、体のために来週に変えてもらいました。家に帰ってから、温かいスープを食べて、午後はずっと寝ていました。",
+    "questions": [
+      {
+        "question": "どうして病院へ行きましたか。",
+        "options": [
+          "おなかが痛いから",
+          "頭が痛くて熱があったから",
+          "足をけがしたから",
+          "目が見えないから"
+        ],
+        "answer": 1,
+        "explanation_vi": "Đau đầu và hơi sốt từ hôm qua nên sáng nay đi bệnh viện."
+      },
+      {
+        "question": "薬をいつ飲みますか。",
+        "options": [
+          "食事の前",
+          "毎朝だけ",
+          "食事のあと、一日三回",
+          "寝る前だけ"
+        ],
+        "answer": 2,
+        "explanation_vi": "Uống thuốc sau ba bữa ăn, ngày 3 lần."
+      },
+      {
+        "question": "薬を飲んだあと、何をしないほうがいいですか。",
+        "options": [
+          "水を飲む",
+          "寝る",
+          "車を運転する",
+          "ご飯を食べる"
+        ],
+        "answer": 2,
+        "explanation_vi": "Bác sĩ dặn tránh lái xe sau khi uống thuốc."
+      },
+      {
+        "question": "熱が三日後も高かったらどうしますか。",
+        "options": [
+          "山に登る",
+          "もう一度病院へ行く",
+          "薬をやめる",
+          "友達に会う"
+        ],
+        "answer": 1,
+        "explanation_vi": "Nếu ba ngày nữa không hết sốt, đi khám lại."
+      },
+      {
+        "question": "山登りの約束はどうなりましたか。",
+        "options": [
+          "今日に変えた",
+          "中止して二度と行かない",
+          "来週に変えた",
+          "明日行く"
+        ],
+        "answer": 2,
+        "explanation_vi": "Hẹn leo núi chuyển sang tuần sau."
+      }
+    ]
+  }
+]
