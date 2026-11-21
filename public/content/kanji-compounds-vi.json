@@ -1,0 +1,734 @@
+{
+  "共同": {
+    "reading": "きょうどう",
+    "meaning_vi": "cùng nhau, chung"
+  },
+  "同一": {
+    "reading": "どういつ",
+    "meaning_vi": "giống hệt, cùng một"
+  },
+  "同時": {
+    "reading": "どうじ",
+    "meaning_vi": "cùng lúc"
+  },
+  "同様": {
+    "reading": "どうよう",
+    "meaning_vi": "tương tự, giống nhau"
+  },
+  "同僚": {
+    "reading": "どうりょう",
+    "meaning_vi": "đồng nghiệp"
+  },
+  "合同": {
+    "reading": "ごうどう",
+    "meaning_vi": "kết hợp, chung"
+  },
+  "自身": {
+    "reading": "じしん",
+    "meaning_vi": "bản thân"
+  },
+  "自然": {
+    "reading": "しぜん",
+    "meaning_vi": "thiên nhiên; tự nhiên"
+  },
+  "自動": {
+    "reading": "じどう",
+    "meaning_vi": "tự động"
+  },
+  "社説": {
+    "reading": "しゃせつ",
+    "meaning_vi": "xã luận"
+  },
+  "商社": {
+    "reading": "しょうしゃ",
+    "meaning_vi": "công ty thương mại"
+  },
+  "入社": {
+    "reading": "にゅうしゃ",
+    "meaning_vi": "vào công ty"
+  },
+  "発見": {
+    "reading": "はっけん",
+    "meaning_vi": "phát hiện"
+  },
+  "発行": {
+    "reading": "はっこう",
+    "meaning_vi": "phát hành"
+  },
+  "発車": {
+    "reading": "はっしゃ",
+    "meaning_vi": "khởi hành (xe, tàu)"
+  },
+  "発達": {
+    "reading": "はったつ",
+    "meaning_vi": "phát triển"
+  },
+  "発展": {
+    "reading": "はってん",
+    "meaning_vi": "phát triển, mở rộng"
+  },
+  "学者": {
+    "reading": "がくしゃ",
+    "meaning_vi": "học giả, nhà nghiên cứu"
+  },
+  "患者": {
+    "reading": "かんじゃ",
+    "meaning_vi": "bệnh nhân"
+  },
+  "記者": {
+    "reading": "きしゃ",
+    "meaning_vi": "phóng viên"
+  },
+  "前者": {
+    "reading": "ぜんしゃ",
+    "meaning_vi": "đối tượng được nhắc trước"
+  },
+  "後者": {
+    "reading": "こうしゃ",
+    "meaning_vi": "đối tượng được nhắc sau"
+  },
+  "生地": {
+    "reading": "きじ",
+    "meaning_vi": "vải; bột nhào"
+  },
+  "地位": {
+    "reading": "ちい",
+    "meaning_vi": "địa vị"
+  },
+  "地域": {
+    "reading": "ちいき",
+    "meaning_vi": "khu vực, vùng"
+  },
+  "営業": {
+    "reading": "えいぎょう",
+    "meaning_vi": "kinh doanh; hoạt động bán hàng"
+  },
+  "企業": {
+    "reading": "きぎょう",
+    "meaning_vi": "doanh nghiệp"
+  },
+  "作業": {
+    "reading": "さぎょう",
+    "meaning_vi": "công việc, thao tác"
+  },
+  "失業": {
+    "reading": "しつぎょう",
+    "meaning_vi": "thất nghiệp"
+  },
+  "一方": {
+    "reading": "いっぽう",
+    "meaning_vi": "một phía; mặt khác"
+  },
+  "地方": {
+    "reading": "ちほう",
+    "meaning_vi": "địa phương, vùng"
+  },
+  "新た": {
+    "reading": "あらた",
+    "meaning_vi": "mới, mới mẻ"
+  },
+  "新鮮": {
+    "reading": "しんせん",
+    "meaning_vi": "tươi mới"
+  },
+  "革新": {
+    "reading": "かくしん",
+    "meaning_vi": "đổi mới"
+  },
+  "委員": {
+    "reading": "いいん",
+    "meaning_vi": "ủy viên, thành viên hội đồng"
+  },
+  "会員": {
+    "reading": "かいいん",
+    "meaning_vi": "hội viên"
+  },
+  "議員": {
+    "reading": "ぎいん",
+    "meaning_vi": "nghị viên"
+  },
+  "全員": {
+    "reading": "ぜんいん",
+    "meaning_vi": "toàn bộ thành viên"
+  },
+  "定員": {
+    "reading": "ていいん",
+    "meaning_vi": "số người quy định, chỉ tiêu"
+  },
+  "立場": {
+    "reading": "たちば",
+    "meaning_vi": "lập trường, vị thế"
+  },
+  "独立": {
+    "reading": "どくりつ",
+    "meaning_vi": "độc lập"
+  },
+  "国立": {
+    "reading": "こくりつ",
+    "meaning_vi": "quốc lập"
+  },
+  "献立": {
+    "reading": "こんだて",
+    "meaning_vi": "thực đơn"
+  },
+  "開始": {
+    "reading": "かいし",
+    "meaning_vi": "bắt đầu"
+  },
+  "開会": {
+    "reading": "かいかい",
+    "meaning_vi": "khai mạc"
+  },
+  "開通": {
+    "reading": "かいつう",
+    "meaning_vi": "thông tuyến, thông đường"
+  },
+  "開放": {
+    "reading": "かいほう",
+    "meaning_vi": "mở cửa, mở cho sử dụng"
+  },
+  "開催": {
+    "reading": "かいさい",
+    "meaning_vi": "tổ chức sự kiện"
+  },
+  "協力": {
+    "reading": "きょうりょく",
+    "meaning_vi": "hợp tác, giúp đỡ"
+  },
+  "努力": {
+    "reading": "どりょく",
+    "meaning_vi": "nỗ lực"
+  },
+  "能力": {
+    "reading": "のうりょく",
+    "meaning_vi": "năng lực"
+  },
+  "体力": {
+    "reading": "たいりょく",
+    "meaning_vi": "thể lực"
+  },
+  "学力": {
+    "reading": "がくりょく",
+    "meaning_vi": "năng lực học tập"
+  },
+  "学問": {
+    "reading": "がくもん",
+    "meaning_vi": "học vấn"
+  },
+  "疑問": {
+    "reading": "ぎもん",
+    "meaning_vi": "thắc mắc, nghi vấn"
+  },
+  "訪問": {
+    "reading": "ほうもん",
+    "meaning_vi": "thăm, viếng thăm"
+  },
+  "問い合わせ": {
+    "reading": "といあわせ",
+    "meaning_vi": "việc hỏi thông tin"
+  },
+  "近代": {
+    "reading": "きんだい",
+    "meaning_vi": "cận đại"
+  },
+  "現代": {
+    "reading": "げんだい",
+    "meaning_vi": "hiện đại"
+  },
+  "代金": {
+    "reading": "だいきん",
+    "meaning_vi": "tiền hàng, số tiền phải trả"
+  },
+  "代表": {
+    "reading": "だいひょう",
+    "meaning_vi": "đại diện"
+  },
+  "代理": {
+    "reading": "だいり",
+    "meaning_vi": "đại lý; thay mặt"
+  },
+  "年代": {
+    "reading": "ねんだい",
+    "meaning_vi": "thời đại; nhóm tuổi"
+  },
+  "証明": {
+    "reading": "しょうめい",
+    "meaning_vi": "chứng minh, chứng nhận"
+  },
+  "発明": {
+    "reading": "はつめい",
+    "meaning_vi": "phát minh"
+  },
+  "文明": {
+    "reading": "ぶんめい",
+    "meaning_vi": "văn minh"
+  },
+  "明確": {
+    "reading": "めいかく",
+    "meaning_vi": "rõ ràng, minh bạch"
+  },
+  "明かり": {
+    "reading": "あかり",
+    "meaning_vi": "ánh sáng, đèn"
+  },
+  "移動": {
+    "reading": "いどう",
+    "meaning_vi": "di chuyển"
+  },
+  "活動": {
+    "reading": "かつどう",
+    "meaning_vi": "hoạt động"
+  },
+  "感動": {
+    "reading": "かんどう",
+    "meaning_vi": "xúc động"
+  },
+  "科目": {
+    "reading": "かもく",
+    "meaning_vi": "môn học"
+  },
+  "注目": {
+    "reading": "ちゅうもく",
+    "meaning_vi": "chú ý, quan tâm"
+  },
+  "目標": {
+    "reading": "もくひょう",
+    "meaning_vi": "mục tiêu"
+  },
+  "項目": {
+    "reading": "こうもく",
+    "meaning_vi": "mục, hạng mục"
+  },
+  "共通": {
+    "reading": "きょうつう",
+    "meaning_vi": "chung, có điểm chung"
+  },
+  "通過": {
+    "reading": "つうか",
+    "meaning_vi": "đi qua"
+  },
+  "通学": {
+    "reading": "つうがく",
+    "meaning_vi": "đi học (di chuyển đến trường)"
+  },
+  "通行": {
+    "reading": "つうこう",
+    "meaning_vi": "lưu thông, đi lại"
+  },
+  "言語": {
+    "reading": "げんご",
+    "meaning_vi": "ngôn ngữ"
+  },
+  "一言": {
+    "reading": "ひとこと",
+    "meaning_vi": "một lời, đôi lời"
+  },
+  "方言": {
+    "reading": "ほうげん",
+    "meaning_vi": "phương ngữ"
+  },
+  "独り言": {
+    "reading": "ひとりごと",
+    "meaning_vi": "lẩm bẩm một mình"
+  },
+  "管理": {
+    "reading": "かんり",
+    "meaning_vi": "quản lý"
+  },
+  "修理": {
+    "reading": "しゅうり",
+    "meaning_vi": "sửa chữa"
+  },
+  "処理": {
+    "reading": "しょり",
+    "meaning_vi": "xử lý"
+  },
+  "心理": {
+    "reading": "しんり",
+    "meaning_vi": "tâm lý"
+  },
+  "具体": {
+    "reading": "ぐたい",
+    "meaning_vi": "cụ thể"
+  },
+  "身体": {
+    "reading": "しんたい",
+    "meaning_vi": "thân thể"
+  },
+  "全体": {
+    "reading": "ぜんたい",
+    "meaning_vi": "toàn thể"
+  },
+  "体育": {
+    "reading": "たいいく",
+    "meaning_vi": "thể dục"
+  },
+  "体温": {
+    "reading": "たいおん",
+    "meaning_vi": "nhiệt độ cơ thể"
+  },
+  "田植え": {
+    "reading": "たうえ",
+    "meaning_vi": "việc cấy lúa"
+  },
+  "田んぼ": {
+    "reading": "たんぼ",
+    "meaning_vi": "ruộng lúa"
+  },
+  "水田": {
+    "reading": "すいでん",
+    "meaning_vi": "ruộng nước"
+  },
+  "田園": {
+    "reading": "でんえん",
+    "meaning_vi": "nông thôn; đồng quê"
+  },
+  "主に": {
+    "reading": "おもに",
+    "meaning_vi": "chủ yếu"
+  },
+  "主義": {
+    "reading": "しゅぎ",
+    "meaning_vi": "chủ nghĩa"
+  },
+  "主張": {
+    "reading": "しゅちょう",
+    "meaning_vi": "khẳng định, chủ trương"
+  },
+  "主婦": {
+    "reading": "しゅふ",
+    "meaning_vi": "nội trợ"
+  },
+  "主要": {
+    "reading": "しゅよう",
+    "meaning_vi": "chủ yếu, chính"
+  },
+  "主語": {
+    "reading": "しゅご",
+    "meaning_vi": "chủ ngữ"
+  },
+  "主役": {
+    "reading": "しゅやく",
+    "meaning_vi": "vai chính"
+  },
+  "話題": {
+    "reading": "わだい",
+    "meaning_vi": "đề tài, chủ đề nói chuyện"
+  },
+  "題名": {
+    "reading": "だいめい",
+    "meaning_vi": "tiêu đề, nhan đề"
+  },
+  "課題": {
+    "reading": "かだい",
+    "meaning_vi": "bài tập; vấn đề cần giải quyết"
+  },
+  "議題": {
+    "reading": "ぎだい",
+    "meaning_vi": "chủ đề nghị sự"
+  },
+  "主題": {
+    "reading": "しゅだい",
+    "meaning_vi": "chủ đề"
+  },
+  "意外": {
+    "reading": "いがい",
+    "meaning_vi": "bất ngờ, ngoài dự kiến"
+  },
+  "意志": {
+    "reading": "いし",
+    "meaning_vi": "ý chí"
+  },
+  "意思": {
+    "reading": "いし",
+    "meaning_vi": "ý định"
+  },
+  "意識": {
+    "reading": "いしき",
+    "meaning_vi": "ý thức"
+  },
+  "不安": {
+    "reading": "ふあん",
+    "meaning_vi": "bất an, lo lắng"
+  },
+  "不幸": {
+    "reading": "ふこう",
+    "meaning_vi": "bất hạnh"
+  },
+  "不足": {
+    "reading": "ふそく",
+    "meaning_vi": "thiếu, không đủ"
+  },
+  "作品": {
+    "reading": "さくひん",
+    "meaning_vi": "tác phẩm"
+  },
+  "作物": {
+    "reading": "さくもつ",
+    "meaning_vi": "cây trồng, nông sản"
+  },
+  "作家": {
+    "reading": "さっか",
+    "meaning_vi": "nhà văn, tác giả"
+  },
+  "作曲": {
+    "reading": "さっきょく",
+    "meaning_vi": "sáng tác nhạc"
+  },
+  "作法": {
+    "reading": "さほう",
+    "meaning_vi": "cách ứng xử, phép tắc"
+  },
+  "引用": {
+    "reading": "いんよう",
+    "meaning_vi": "trích dẫn"
+  },
+  "活用": {
+    "reading": "かつよう",
+    "meaning_vi": "vận dụng; chia dạng (động từ)"
+  },
+  "器用": {
+    "reading": "きよう",
+    "meaning_vi": "khéo léo"
+  },
+  "使用": {
+    "reading": "しよう",
+    "meaning_vi": "sử dụng"
+  },
+  "温度": {
+    "reading": "おんど",
+    "meaning_vi": "nhiệt độ"
+  },
+  "制度": {
+    "reading": "せいど",
+    "meaning_vi": "chế độ, hệ thống"
+  },
+  "速度": {
+    "reading": "そくど",
+    "meaning_vi": "tốc độ"
+  },
+  "強調": {
+    "reading": "きょうちょう",
+    "meaning_vi": "nhấn mạnh"
+  },
+  "強化": {
+    "reading": "きょうか",
+    "meaning_vi": "tăng cường"
+  },
+  "強引": {
+    "reading": "ごういん",
+    "meaning_vi": "cưỡng ép, gượng ép"
+  },
+  "強気": {
+    "reading": "つよき",
+    "meaning_vi": "kiên quyết, cứng rắn"
+  },
+  "公平": {
+    "reading": "こうへい",
+    "meaning_vi": "công bằng"
+  },
+  "公害": {
+    "reading": "こうがい",
+    "meaning_vi": "ô nhiễm công nghiệp"
+  },
+  "公共": {
+    "reading": "こうきょう",
+    "meaning_vi": "công cộng"
+  },
+  "公式": {
+    "reading": "こうしき",
+    "meaning_vi": "chính thức; công thức"
+  },
+  "公衆": {
+    "reading": "こうしゅう",
+    "meaning_vi": "công chúng"
+  },
+  "公正": {
+    "reading": "こうせい",
+    "meaning_vi": "công bằng, công chính"
+  },
+  "維持": {
+    "reading": "いじ",
+    "meaning_vi": "duy trì"
+  },
+  "金持ち": {
+    "reading": "かねもち",
+    "meaning_vi": "người giàu có"
+  },
+  "持ち上げる": {
+    "reading": "もちあげる",
+    "meaning_vi": "nhấc lên; tâng bốc"
+  },
+  "持参": {
+    "reading": "じさん",
+    "meaning_vi": "mang theo"
+  },
+  "分野": {
+    "reading": "ぶんや",
+    "meaning_vi": "lĩnh vực"
+  },
+  "平野": {
+    "reading": "へいや",
+    "meaning_vi": "đồng bằng"
+  },
+  "視野": {
+    "reading": "しや",
+    "meaning_vi": "tầm nhìn"
+  },
+  "野外": {
+    "reading": "やがい",
+    "meaning_vi": "ngoài trời"
+  },
+  "野生": {
+    "reading": "やせい",
+    "meaning_vi": "hoang dã"
+  },
+  "以前": {
+    "reading": "いぜん",
+    "meaning_vi": "trước đây"
+  },
+  "以来": {
+    "reading": "いらい",
+    "meaning_vi": "kể từ"
+  },
+  "以後": {
+    "reading": "いご",
+    "meaning_vi": "sau đó, kể từ đó"
+  },
+  "以降": {
+    "reading": "いこう",
+    "meaning_vi": "từ... trở đi"
+  },
+  "思い出": {
+    "reading": "おもいで",
+    "meaning_vi": "kỷ niệm"
+  },
+  "思わず": {
+    "reading": "おもわず",
+    "meaning_vi": "bất giác"
+  },
+  "不思議": {
+    "reading": "ふしぎ",
+    "meaning_vi": "kỳ lạ, bí ẩn"
+  },
+  "大家": {
+    "reading": "おおや",
+    "meaning_vi": "chủ nhà cho thuê"
+  },
+  "画家": {
+    "reading": "がか",
+    "meaning_vi": "họa sĩ"
+  },
+  "家具": {
+    "reading": "かぐ",
+    "meaning_vi": "đồ nội thất"
+  },
+  "世紀": {
+    "reading": "せいき",
+    "meaning_vi": "thế kỷ"
+  },
+  "世間": {
+    "reading": "せけん",
+    "meaning_vi": "xã hội, thế gian"
+  },
+  "世の中": {
+    "reading": "よのなか",
+    "meaning_vi": "thế giới, xã hội"
+  },
+  "出世": {
+    "reading": "しゅっせ",
+    "meaning_vi": "thăng tiến"
+  },
+  "多少": {
+    "reading": "たしょう",
+    "meaning_vi": "ít nhiều"
+  },
+  "正午": {
+    "reading": "しょうご",
+    "meaning_vi": "chính ngọ, 12 giờ trưa"
+  },
+  "正直": {
+    "reading": "しょうじき",
+    "meaning_vi": "thành thật"
+  },
+  "正確": {
+    "reading": "せいかく",
+    "meaning_vi": "chính xác"
+  },
+  "正式": {
+    "reading": "せいしき",
+    "meaning_vi": "chính thức"
+  },
+  "安定": {
+    "reading": "あんてい",
+    "meaning_vi": "ổn định"
+  },
+  "目安": {
+    "reading": "めやす",
+    "meaning_vi": "mốc tham khảo, ước lượng"
+  },
+  "安静": {
+    "reading": "あんせい",
+    "meaning_vi": "nghỉ ngơi yên tĩnh"
+  },
+  "緊張": {
+    "reading": "きんちょう",
+    "meaning_vi": "căng thẳng"
+  },
+  "出張": {
+    "reading": "しゅっちょう",
+    "meaning_vi": "đi công tác"
+  },
+  "予定": {
+    "reading": "よてい",
+    "meaning_vi": "dự định, lịch trình"
+  },
+  "予約": {
+    "reading": "よやく",
+    "meaning_vi": "đặt trước"
+  },
+  "相談": {
+    "reading": "そうだん",
+    "meaning_vi": "bàn bạc, xin ý kiến"
+  },
+  "連絡": {
+    "reading": "れんらく",
+    "meaning_vi": "liên lạc, thông báo"
+  },
+  "説明": {
+    "reading": "せつめい",
+    "meaning_vi": "giải thích"
+  },
+  "準備": {
+    "reading": "じゅんび",
+    "meaning_vi": "chuẩn bị"
+  },
+  "経験": {
+    "reading": "けいけん",
+    "meaning_vi": "kinh nghiệm"
+  },
+  "理由": {
+    "reading": "りゆう",
+    "meaning_vi": "lý do"
+  },
+  "結果": {
+    "reading": "けっか",
+    "meaning_vi": "kết quả"
+  },
+  "参加": {
+    "reading": "さんか",
+    "meaning_vi": "tham gia"
+  },
+  "案内": {
+    "reading": "あんない",
+    "meaning_vi": "hướng dẫn, chỉ đường"
+  },
+  "便利": {
+    "reading": "べんり",
+    "meaning_vi": "tiện lợi"
+  },
+  "不便": {
+    "reading": "ふべん",
+    "meaning_vi": "bất tiện"
+  }
+}

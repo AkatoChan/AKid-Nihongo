@@ -12,7 +12,7 @@ import {
   exportBackup, getLogs, getPref, getProgress, getQuizzes, importBackup, initStorage,
   rateWord, saveQuiz, setPref, storageMode
 } from './lib/storage';
-import type { Content, ExamSection, Grammar, Kanji, Question, QuizResult, Reading, ReviewLog, Vocab, WordProgress } from './lib/types';
+import type { Content, CompoundEntry, ExamSection, Grammar, Kanji, Question, QuizResult, Reading, ReviewLog, Vocab, WordProgress } from './lib/types';
 
 type Page='dashboard'|'vocab'|'flashcards'|'grammar'|'kanji'|'reading'|'exam'|'stats'|'settings';
 type ExamMode='quick'|'mock'|'grammar'|'reading';
@@ -133,7 +133,7 @@ export default function App(){
         {page==='vocab'&&<Vocabulary content={content} search={search} setSearch={setSearch} progress={progress} notify={notify}/>}
         {page==='flashcards'&&<Flashcards content={content} progress={progress} onRate={async(id,q)=>{await rateWord(id,q);await refresh()}} notify={notify}/>}
         {page==='grammar'&&<GrammarPage grammar={content.grammar} onTest={()=>makeStart('grammar')} notify={notify}/>}
-        {page==='kanji'&&<KanjiPage kanji={content.kanji} vocab={content.vocab} manualVi={content.manualVi} notify={notify}/>}
+        {page==='kanji'&&<KanjiPage kanji={content.kanji} vocab={content.vocab} manualVi={content.manualVi} compounds={content.kanjiCompounds} notify={notify}/>}
         {page==='reading'&&<ReadingPage readings={content.readings} notify={notify} onSave={async(score,total)=>{await saveQuiz({mode:'reading',score,total,duration_seconds:0,created_at:Date.now()});await refresh()}}/>}
         {page==='exam'&&(exam?<ExamPanel exam={exam} timeLeft={remain} setExam={setExam} onFinish={nextSection} onRestart={()=>setExam(null)} notify={notify}/>:<ExamHome content={content} onStart={makeStart} quizzes={quizzes}/>)}
         {page==='stats'&&<Stats content={content} progress={progress} quizzes={quizzes} logs={logs} streak={streak} goal={goal}/>}
@@ -267,7 +267,7 @@ function GrammarPage({grammar,onTest,notify}:{grammar:Grammar[];onTest:()=>void;
       <div className="modal-footer"><span>Nguồn: {selected.source||'OpenJLPT'} · Giải thích tự biên soạn khi có</span><button className="btn btn-primary" onClick={()=>setSelected(null)}>Đã hiểu</button></div></Modal>}
   </>;
 }
-function KanjiPage({kanji,vocab,manualVi,notify}:{kanji:Kanji[];vocab:Vocab[];manualVi:Record<string,string>;notify:(s:string)=>void}){
+function KanjiPage({kanji,vocab,manualVi,compounds,notify}:{kanji:Kanji[];vocab:Vocab[];manualVi:Record<string,string>;compounds:Record<string,CompoundEntry>;notify:(s:string)=>void}){
   const [q,setQ]=useState('');
   const [selected,setSelected]=useState<Kanji|null>(null);
   const [compound,setCompound]=useState<string|null>(null);
@@ -275,7 +275,8 @@ function KanjiPage({kanji,vocab,manualVi,notify}:{kanji:Kanji[];vocab:Vocab[];ma
   const open=(k:Kanji)=>{setSelected(k);setCompound(null)};
   const examples=selected?[...new Set([...(selected.words||[]),...vocab.filter(w=>w.word!==selected.character&&w.word.includes(selected.character)).map(w=>w.word)])].slice(0,24):[];
   const entry=compound?vocab.find(v=>v.word===compound)||vocab.find(v=>v.reading===compound):undefined;
-  const gloss=entry?.meaning_vi|| (compound?manualVi[compound]:undefined);
+  const compoundEntry=compound?compounds[compound]:undefined;
+  const gloss=entry?.meaning_vi||(compound?manualVi[compound]:undefined)||compoundEntry?.meaning_vi;
   return <><PageIntro label="KANJI · 漢字" title="Thư viện Kanji" description="Chạm vào từ ghép để xem cách đọc, nghĩa tiếng Việt và ví dụ." icon={WandSparkles}/>
     <div className="filter-bar"><div className="field-search"><Search size={18}/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Tìm Kanji, cách đọc hoặc nghĩa..."/></div><span className="tiny-tag">{kanji.length} chữ Kanji</span></div>
     <div className="kanji-grid">{filtered.map(k=><button className="kanji-item" key={k.character} onClick={()=>open(k)}><strong>{k.character}</strong><span>{k.meaning_vi||manualVi[k.character]||'Chưa dịch'}</span><small>{k.onyomi?.[0]||'—'}</small></button>)}</div>
@@ -283,10 +284,10 @@ function KanjiPage({kanji,vocab,manualVi,notify}:{kanji:Kanji[];vocab:Vocab[];ma
     {selected&&<Modal onClose={()=>{setSelected(null);setCompound(null)}}><span className="pill">KANJI · {selected.level}</span><div className="kanji-detail"><strong>{selected.character}</strong><div><span className="eyebrow">Ý NGHĨA</span><h2>{selected.meaning_vi||manualVi[selected.character]||'Chưa có nghĩa tiếng Việt'}</h2><p>{selected.strokes??'—'} nét</p><button className="btn btn-light" onClick={()=>speak(selected.character,notify)}><Volume2 size={16}/> Nghe phát âm</button></div></div>
       <div className="kanji-readings"><div><span className="eyebrow">ÂM ON (音読み)</span><strong>{selected.onyomi?.join('、')||'—'}</strong></div><div><span className="eyebrow">ÂM KUN (訓読み)</span><strong>{selected.kunyomi?.join('、')||'—'}</strong></div></div>
       {examples.length>0&&<div className="explain-section"><span className="eyebrow">TỪ CÓ CHỨA KANJI NÀY · BẤM VÀO TỪ ĐỂ TRA</span><div className="kanji-words">{examples.map(w=><button className={`compound-pill ${compound===w?'active':''}`} type="button" onClick={()=>setCompound(w)} key={w}>{w}<ChevronRight size={13}/></button>)}</div></div>}
-      {compound&&<div className="compound-detail" aria-live="polite"><div className="compound-title"><div><span className="eyebrow">CHI TIẾT TỪ GHÉP</span><h3>{compound}</h3><p>{entry?.reading||'Chưa có cách đọc trong kho N4/N5'}</p></div><button type="button" className="icon-button" title="Đọc từ ghép" onClick={()=>speak(entry?.word||compound,notify)}><Volume2 size={20}/></button></div>
+      {compound&&<div className="compound-detail" aria-live="polite"><div className="compound-title"><div><span className="eyebrow">CHI TIẾT TỪ GHÉP</span><h3>{compound}</h3><p>{entry?.reading||compoundEntry?.reading||'Chưa có cách đọc trong kho N4/N5'}</p></div><button type="button" className="icon-button" title="Đọc từ ghép" onClick={()=>speak(entry?.word||compound,notify)}><Volume2 size={20}/></button></div>
         <strong>{gloss||'Chưa có nghĩa tiếng Việt cho từ này trong dữ liệu offline'}</strong>
         {!gloss&&<p className="subtle">Từ ghép này có trong danh sách ví dụ Kanji nhưng chưa có mục từ tương ứng. Có thể bổ sung qua kho từ điển Nhật–Việt.</p>}
-        {entry?.examples?.[0]&&<div className="example"><Japanese text={entry.examples[0].furigana||entry.examples[0].ja}/>{entry.examples[0].vi&&<p>{entry.examples[0].vi}</p>}</div>}
+        {entry?.examples?.[0]&&<div className="example"><Japanese text={entry.examples[0].furigana||entry.examples[0].ja}/>{entry.examples[0].vi&&<p>{entry.examples[0].vi}</p>}</div>}{!entry?.examples?.[0]&&compoundEntry?.example_ja&&<div className="example"><Japanese text={compoundEntry.example_ja}/>{compoundEntry.example_vi&&<p>{compoundEntry.example_vi}</p>}</div>}
       </div>}
       <p className="subtle">Kanji và từ ví dụ: OpenJLPT (CC BY-SA 4.0). Bản dịch chỉ hiển thị khi có dữ liệu tiếng Việt.</p></Modal>}
   </>;

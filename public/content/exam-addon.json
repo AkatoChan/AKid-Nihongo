@@ -1,0 +1,651 @@
+{
+  "vocabulary": [
+    {
+      "id": "akid-vocab-01",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "駅で財布を（　）ので、交番に行きました。",
+      "options": [
+        "見つけた",
+        "落とした",
+        "拾った",
+        "返した"
+      ],
+      "answer": 1,
+      "explanation": "落とす = đánh rơi; vì mất ví nên đến đồn cảnh sát."
+    },
+    {
+      "id": "akid-vocab-02",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "この道は車が多くて（　）ですから、気をつけてください。",
+      "options": [
+        "便利",
+        "安全",
+        "自由",
+        "危険"
+      ],
+      "answer": 3,
+      "explanation": "危険（きけん）= nguy hiểm."
+    },
+    {
+      "id": "akid-vocab-03",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "パーティーの前に、テーブルといすを（　）ください。",
+      "options": [
+        "準備して",
+        "反対して",
+        "出発して",
+        "卒業して"
+      ],
+      "answer": 0,
+      "explanation": "準備する = chuẩn bị."
+    },
+    {
+      "id": "akid-vocab-04",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "この料理の（　）を教えてもらえませんか。",
+      "options": [
+        "予定",
+        "仕方",
+        "作り方",
+        "理由"
+      ],
+      "answer": 2,
+      "explanation": "作り方 = cách làm, cách chế biến."
+    },
+    {
+      "id": "akid-vocab-05",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "大事な資料なので、なくさないように（　）ください。",
+      "options": [
+        "捨てて",
+        "保管して",
+        "忘れて",
+        "破って"
+      ],
+      "answer": 1,
+      "explanation": "保管する = cất giữ, bảo quản."
+    },
+    {
+      "id": "akid-vocab-06",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "電車が十分（　）ので、会議に遅れました。",
+      "options": [
+        "進んだ",
+        "動いた",
+        "早まった",
+        "遅れた"
+      ],
+      "answer": 3,
+      "explanation": "遅れる = bị trễ."
+    },
+    {
+      "id": "akid-vocab-07",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "言い換え",
+      "prompt": "「田中さんはとてもおとなしい人です。」と近い意味はどれですか。",
+      "options": [
+        "田中さんはあまり話さない人です。",
+        "田中さんはいつも大きい声で話します。",
+        "田中さんはよく怒る人です。",
+        "田中さんはとても忙しい人です。"
+      ],
+      "answer": 0,
+      "explanation": "おとなしい = trầm tính, hiền, ít nói."
+    },
+    {
+      "id": "akid-vocab-08",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "言い換え",
+      "prompt": "「この近くにはコンビニがありません。」と近い意味はどれですか。",
+      "options": [
+        "ここにはコンビニがたくさんあります。",
+        "コンビニはすぐそばです。",
+        "コンビニはこの辺にないです。",
+        "コンビニはいつも休みです。"
+      ],
+      "answer": 2,
+      "explanation": "この辺 = quanh đây; 近くにはありません = không có ở gần."
+    },
+    {
+      "id": "akid-vocab-09",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "言い換え",
+      "prompt": "「旅行の予定を変更しました。」と近い意味はどれですか。",
+      "options": [
+        "旅行を忘れました。",
+        "旅行の計画を変えました。",
+        "旅行の写真を撮りました。",
+        "旅行の代金を払いました。"
+      ],
+      "answer": 1,
+      "explanation": "変更する = thay đổi."
+    },
+    {
+      "id": "akid-vocab-10",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "言い換え",
+      "prompt": "「もっと早く連絡してください。」と近い意味はどれですか。",
+      "options": [
+        "早く返事をしないでください。",
+        "あとで電話を買ってください。",
+        "もっと大きい声で歌ってください。",
+        "もっと早めに知らせてください。"
+      ],
+      "answer": 3,
+      "explanation": "連絡する = liên lạc, thông báo."
+    },
+    {
+      "id": "akid-vocab-11",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "用法",
+      "prompt": "「案内」の使い方として正しい文はどれですか。",
+      "options": [
+        "友達を駅まで案内しました。",
+        "新しいかばんを案内しました。",
+        "コーヒーを案内しました。",
+        "漢字を案内しました。"
+      ],
+      "answer": 0,
+      "explanation": "案内する = hướng dẫn hoặc dẫn đường cho người khác."
+    },
+    {
+      "id": "akid-vocab-12",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "用法",
+      "prompt": "「拾う」の使い方として正しい文はどれですか。",
+      "options": [
+        "海で水を拾いました。",
+        "駅で時間を拾いました。",
+        "道で落ちていた鍵を拾いました。",
+        "明日友達を拾いました。"
+      ],
+      "answer": 2,
+      "explanation": "拾う（ひろう）= nhặt lên."
+    },
+    {
+      "id": "akid-vocab-13",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "用法",
+      "prompt": "「予約」の使い方として正しい文はどれですか。",
+      "options": [
+        "昨日の雨を予約しました。",
+        "来週のホテルを予約しました。",
+        "日本語を予約しました。",
+        "この料理を予約して食べました。"
+      ],
+      "answer": 1,
+      "explanation": "予約する = đặt trước (khách sạn, chỗ ngồi, lịch hẹn)."
+    },
+    {
+      "id": "akid-vocab-14",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "用法",
+      "prompt": "「残念」の使い方として正しい文はどれですか。",
+      "options": [
+        "雨で中止になって、残念でした。",
+        "この部屋は残念が広いです。",
+        "私は残念を食べます。",
+        "毎朝残念に走ります。"
+      ],
+      "answer": 0,
+      "explanation": "残念 = đáng tiếc."
+    },
+    {
+      "id": "akid-vocab-15",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "毎朝走ることが（　）になりました。",
+      "options": [
+        "習慣",
+        "約束",
+        "道具",
+        "理由"
+      ],
+      "answer": 0,
+      "explanation": "習慣 = thói quen."
+    },
+    {
+      "id": "akid-vocab-16",
+      "type": "word",
+      "section": "vocabulary",
+      "task": "語彙・文脈",
+      "prompt": "駅の（　）で友達を待っています。",
+      "options": [
+        "案内",
+        "改札口",
+        "教科書",
+        "階段を"
+      ],
+      "answer": 1,
+      "explanation": "改札口（かいさつぐち）= cửa soát vé tại nhà ga."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "akid-grammar-01",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "日本で働く（　）、日本語を勉強しています。",
+      "options": [
+        "ように",
+        "ので",
+        "ために",
+        "ところに"
+      ],
+      "answer": 2,
+      "explanation": "Vる＋ために = để làm việc gì (mục đích)."
+    },
+    {
+      "id": "akid-grammar-02",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "妹はやっと一人で買い物に行ける（　）なりました。",
+      "options": [
+        "ように",
+        "ことが",
+        "まま",
+        "ほど"
+      ],
+      "answer": 0,
+      "explanation": "V khả năng＋ようになる = trở nên có thể làm được."
+    },
+    {
+      "id": "akid-grammar-03",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "家を出る前に、窓を閉めて（　）ください。",
+      "options": [
+        "みて",
+        "から",
+        "しまい",
+        "おいて"
+      ],
+      "answer": 3,
+      "explanation": "Vて＋おく = làm trước, chuẩn bị sẵn."
+    },
+    {
+      "id": "akid-grammar-04",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "昨日買ったばかりの傘をなくして（　）。",
+      "options": [
+        "おきました",
+        "しまいました",
+        "あります",
+        "いきました"
+      ],
+      "answer": 1,
+      "explanation": "Vてしまう = lỡ làm, tiếc nuối hoặc hành động hoàn tất."
+    },
+    {
+      "id": "akid-grammar-05",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "この店は安い（　）、駅にも近いです。",
+      "options": [
+        "まで",
+        "のでに",
+        "し",
+        "とき"
+      ],
+      "answer": 2,
+      "explanation": "～し、～し = liệt kê nhiều lý do/đặc điểm."
+    },
+    {
+      "id": "akid-grammar-06",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "電車の中で寝て（　）、駅を通りすぎました。",
+      "options": [
+        "いる間に",
+        "あるために",
+        "おくと",
+        "みたら"
+      ],
+      "answer": 0,
+      "explanation": "～間に = trong lúc; ngủ quên trong lúc đi tàu."
+    },
+    {
+      "id": "akid-grammar-07",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "先生に明日の試験について（　）。",
+      "options": [
+        "聞かせました",
+        "聞かれました",
+        "聞いてくれました",
+        "聞きました"
+      ],
+      "answer": 3,
+      "explanation": "「先生に聞きました」= tôi đã hỏi giáo viên."
+    },
+    {
+      "id": "akid-grammar-08",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "日本語のニュースは難しくて、まだ全部は（　）。",
+      "options": [
+        "わかりました",
+        "わかりません",
+        "わかりそうです",
+        "わかるはずです"
+      ],
+      "answer": 1,
+      "explanation": "まだ～ません = vẫn chưa."
+    },
+    {
+      "id": "akid-grammar-09",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "母に「早く寝なさい」と（　）。",
+      "options": [
+        "言ってください",
+        "言わせました",
+        "言われました",
+        "言ってあげました"
+      ],
+      "answer": 2,
+      "explanation": "受身: 母に言われました = bị/được mẹ nói, nhắc nhở."
+    },
+    {
+      "id": "akid-grammar-10",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "これから会議が始まる（　）です。",
+      "options": [
+        "ところ",
+        "ながら",
+        "まで",
+        "以外"
+      ],
+      "answer": 0,
+      "explanation": "Vる＋ところ = sắp sửa làm."
+    },
+    {
+      "id": "akid-grammar-11",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "学校に着いた（　）、雨が降り始めました。",
+      "options": [
+        "からに",
+        "ほうが",
+        "ための",
+        "とたんに"
+      ],
+      "answer": 3,
+      "explanation": "Vた＋とたんに = ngay khi vừa ... (thường ngoài dự liệu); có thể khó hơn N4, dùng luyện nâng cao."
+    },
+    {
+      "id": "akid-grammar-12",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "雨が降っても、試合をする（　）です。",
+      "options": [
+        "ように",
+        "つもり",
+        "ことに",
+        "ために"
+      ],
+      "answer": 1,
+      "explanation": "Vる＋つもり = dự định làm; 雨が降っても = dù trời mưa."
+    },
+    {
+      "id": "akid-grammar-13",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "「先に帰ってもいいですか。」「はい、（　）。」",
+      "options": [
+        "帰ったはずです",
+        "帰るところです",
+        "帰ってもいいですよ",
+        "帰らないでください"
+      ],
+      "answer": 2,
+      "explanation": "～てもいい = được phép."
+    },
+    {
+      "id": "akid-grammar-14",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "会議の時間が変わったことを、みんなに（　）。",
+      "options": [
+        "知らせてください",
+        "知ってください",
+        "知らせられますか",
+        "知っています"
+      ],
+      "answer": 0,
+      "explanation": "知らせる = báo cho mọi người; thể てください yêu cầu."
+    },
+    {
+      "id": "akid-grammar-15",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "友達が来る前に、部屋を掃除して（　）。",
+      "options": [
+        "しまったばかり",
+        "おくことにしました",
+        "なければなりませんでした",
+        "あるはずでした"
+      ],
+      "answer": 1,
+      "explanation": "Vておくことにしました = đã quyết định làm trước."
+    },
+    {
+      "id": "akid-grammar-16",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "財布を忘れた（　）、昼ご飯を買えませんでした。",
+      "options": [
+        "まで",
+        "ところ",
+        "ため",
+        "ように"
+      ],
+      "answer": 2,
+      "explanation": "～ため = vì, do (nguyên nhân), lịch sự/trang trọng."
+    },
+    {
+      "id": "akid-grammar-17",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "文を正しく並べたものはどれですか。（私／毎日／日本語を／勉強しています）",
+      "options": [
+        "日本語を毎日私は勉強しています。",
+        "私は日本語を毎日勉強しています。",
+        "毎日は勉強しています日本語を。",
+        "日本語を勉強私は毎日しています。"
+      ],
+      "answer": 1,
+      "explanation": "Thứ tự tự nhiên: 私は日本語を毎日勉強しています。"
+    },
+    {
+      "id": "akid-grammar-18",
+      "type": "grammar",
+      "section": "language",
+      "task": "文法・文脈",
+      "prompt": "文を正しく並べたものはどれですか。（本／昨日／買った／この）",
+      "options": [
+        "昨日買ったこの本",
+        "この昨日買った本",
+        "買った昨日この本",
+        "本この買った昨日"
+      ],
+      "answer": 0,
+      "explanation": "Mệnh đề bổ nghĩa đứng trước danh từ: 昨日買ったこの本."
+    }
+  ],
+  "listening": [
+    {
+      "id": "akid-listen-01",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・課題理解",
+      "prompt": "女の人は明日、何を持って行きますか。",
+      "options": [
+        "ノート",
+        "辞書",
+        "お弁当",
+        "カメラ"
+      ],
+      "answer": 2,
+      "explanation": "Nam nhắc ngày mai có chuyến dã ngoại, nữ sẽ mang cơm hộp.",
+      "audioScript": "男：明日の遠足、何を持って行く？\n女：水はもう用意したよ。お弁当は明日の朝作って、持って行くつもり。\n男：じゃあ、忘れないでね。"
+    },
+    {
+      "id": "akid-listen-02",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・ポイント理解",
+      "prompt": "二人は何時に会いますか。",
+      "options": [
+        "午後一時",
+        "午後二時",
+        "午後三時",
+        "午後四時"
+      ],
+      "answer": 1,
+      "explanation": "Hẹn gặp lúc 2 giờ chiều.",
+      "audioScript": "女：明日の勉強会は三時からですね。\n男：はい。でも、先に相談したいことがあるので、二時に会いませんか。\n女：いいですよ。では二時に。"
+    },
+    {
+      "id": "akid-listen-03",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・ポイント理解",
+      "prompt": "男の人はどうしてバスに乗りませんでしたか。",
+      "options": [
+        "バスが来なかったから",
+        "歩くほうが早かったから",
+        "財布を忘れたから",
+        "雨が降ったから"
+      ],
+      "answer": 2,
+      "explanation": "Vì quên ví nên không có tiền đi xe buýt.",
+      "audioScript": "女：今日は歩いて来たんですか。\n男：ええ、バスに乗ろうと思ったけど、財布を家に忘れちゃったんです。\n女：それは大変でしたね。"
+    },
+    {
+      "id": "akid-listen-04",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・課題理解",
+      "prompt": "女の人はこれから何をしますか。",
+      "options": [
+        "コピーを十枚取る",
+        "先生に電話する",
+        "メールを読む",
+        "教室を掃除する"
+      ],
+      "answer": 0,
+      "explanation": "Người nữ sẽ photo 10 bản.",
+      "audioScript": "男：明日の会議の資料、みんなの分が足りません。\n女：何枚必要ですか。\n男：あと十枚お願いします。\n女：わかりました。今コピーします。"
+    },
+    {
+      "id": "akid-listen-05",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・ポイント理解",
+      "prompt": "店は何曜日に休みですか。",
+      "options": [
+        "月曜日",
+        "火曜日",
+        "水曜日",
+        "木曜日"
+      ],
+      "answer": 2,
+      "explanation": "Cửa hàng nghỉ thứ Tư.",
+      "audioScript": "女：この店は毎日開いていますか。\n男：いいえ、月曜日と火曜日は開いていますが、水曜日は休みです。木曜日からまた営業します。"
+    },
+    {
+      "id": "akid-listen-06",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・課題理解",
+      "prompt": "男の人は何を買うことにしましたか。",
+      "options": [
+        "赤いかばん",
+        "青いかばん",
+        "黒いかばん",
+        "何も買わない"
+      ],
+      "answer": 1,
+      "explanation": "Chọn túi xanh vì túi đỏ đắt hơn.",
+      "audioScript": "男：この赤いかばん、いいですね。でも少し高いな。\n女：青いほうは千円安いですよ。\n男：それなら青いほうにします。"
+    },
+    {
+      "id": "akid-listen-07",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・ポイント理解",
+      "prompt": "学校の図書館は今日は何時までですか。",
+      "options": [
+        "午後五時",
+        "午後六時",
+        "午後七時",
+        "午後八時"
+      ],
+      "answer": 1,
+      "explanation": "Hôm nay đóng cửa 6 giờ, dù bình thường 7 giờ.",
+      "audioScript": "女：図書館って、いつも七時までですよね。\n男：普段はそうですが、今日は先生たちの会議があるので、六時に閉まります。\n女：じゃあ、早く行きましょう。"
+    },
+    {
+      "id": "akid-listen-08",
+      "type": "listening",
+      "section": "listening",
+      "task": "聴解・課題理解",
+      "prompt": "女の人は何を最初にしますか。",
+      "options": [
+        "窓を開ける",
+        "机を運ぶ",
+        "電気をつける",
+        "いすを並べる"
+      ],
+      "answer": 3,
+      "explanation": "Đầu tiên xếp ghế, sau đó chuyển bàn.",
+      "audioScript": "男：イベントの準備を手伝ってくれますか。\n女：はい。何から始めればいいですか。\n男：まずいすを並べてください。それから机を運びましょう。\n女：わかりました。"
+    }
+  ],
+  "metadata": {
+    "official": false,
+    "source": "AKid-Nihongo original N4-style exercises (reference: learner-provided materials; no copied questions)",
+    "license": "Original educational content; see DATA-LICENSE.md"
+  }
+}

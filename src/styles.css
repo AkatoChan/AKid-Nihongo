@@ -42,3 +42,6 @@
 .original-gloss{margin-top:10px;font-size:12px}
 .original-gloss summary{color:var(--muted);cursor:pointer}
 .original-gloss p{margin:7px 0 0}
+
+/* Keep paragraph boundaries in Japanese messages and notices. */
+.japanese-paragraph,.exam-reading-text{white-space:pre-line}
