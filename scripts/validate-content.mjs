@@ -26,4 +26,27 @@ for(const f of ['manual-vi','manual-grammar-vi','manual-vi-addon','kanji-compoun
 }
 const compounds=await load('kanji-compounds-vi');
 for(const [word,item] of Object.entries(compounds))if(!word||!item||typeof item.reading!=='string'||!item.reading||typeof item.meaning_vi!=='string'||!item.meaning_vi){failed=true;console.error('Bad compound',word)}
+const pastPapers=await load('past-papers');
+if(!Array.isArray(pastPapers)){failed=true;console.error('past-papers must be an array')}
+else {
+ const seenPapers=new Set(),seenQuestions=new Set();
+ for(const paper of pastPapers){
+  if(!paper.id||seenPapers.has(paper.id)||!Number.isInteger(paper.year)||!['07','12'].includes(paper.session)||!['partial','complete'].includes(paper.status)||!paper.sourceNote||!Array.isArray(paper.questions)){
+   failed=true;console.error('Invalid past paper',paper.id);continue;
+  }
+  seenPapers.add(paper.id);
+  for(const q of paper.questions){
+   if(!q.id||seenQuestions.has(q.id)||!['word','grammar','reading','listening'].includes(q.type)||!['vocabulary','language','listening'].includes(q.section)||
+     !q.prompt?.trim()||!Array.isArray(q.options)||q.options.length!==4||q.options.some(x=>typeof x!=='string'||!x.trim())||
+     !Number.isInteger(q.answer)||q.answer<0||q.answer>3||typeof q.explanation!=='string'||q.explanation.trim().length<35||
+     q.type==='reading'&&(!q.sub||q.sub.trim().length<80)||
+     q.type==='listening'&&!q.audioScript){
+      failed=true;console.error('Invalid historical question',paper.id,q.id);
+   }
+   seenQuestions.add(q.id);
+  }
+  console.log('past-papers',paper.id,paper.questions.length,'verified excerpt questions');
+ }
+}
+
 if(failed)process.exitCode=1;else console.log('Content validation OK');
