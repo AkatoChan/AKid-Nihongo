@@ -1,0 +1,1125 @@
+[
+  {
+    "id": "n4-doc-2025-07",
+    "title": "Tháng 7/2025 · Trích từ tài liệu",
+    "year": 2025,
+    "session": "07",
+    "status": "partial",
+    "sourceNote": "Trích từ file Word người dùng cung cấp. Chưa xác thực là đề thi chính thức; bỏ câu bị mất ký tự, chưa có audio phần nghe.",
+    "questions": [
+      {
+        "id": "2025-07-v01",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "すぐに 集めて ください。",
+        "options": [
+          "やめて",
+          "きめて",
+          "あつめて",
+          "とめて"
+        ],
+        "answer": 2,
+        "explanation": "集める（あつめる）= tập hợp, thu thập; thể て là 集めて. Đáp án đúng là C: あつめて. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v02",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "あそこに いるのが わたしの 姉 です。",
+        "options": [
+          "おとうと",
+          "あに",
+          "いもうと",
+          "あね"
+        ],
+        "answer": 3,
+        "explanation": "姉（あね）= chị gái (mình); em gái là 妹（いもうと）. Đáp án đúng là D: あね. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v03",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "むこうで 何か 光って いますね。",
+        "options": [
+          "ひかって",
+          "かざって",
+          "うって",
+          "なって"
+        ],
+        "answer": 0,
+        "explanation": "光る（ひかる）= phát sáng; 光って là thể て. Đáp án đúng là A: ひかって. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v04",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "今度の 日よう日に きこくします。",
+        "options": [
+          "こんどう",
+          "こんど",
+          "こんと",
+          "こんとう"
+        ],
+        "answer": 1,
+        "explanation": "今度（こんど）= lần này/lần tới. Đáp án đúng là B: こんど. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v05",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "その 赤い サンダルを ください。",
+        "options": [
+          "あおい",
+          "あかい",
+          "しろい",
+          "くろい"
+        ],
+        "answer": 1,
+        "explanation": "赤い（あかい）= đỏ; 青い = xanh, 白い = trắng. Đáp án đúng là B: あかい. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v06",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "火に 気を つけて ください。",
+        "options": [
+          "いし",
+          "あぶら",
+          "ひ",
+          "えだ"
+        ],
+        "answer": 2,
+        "explanation": "火（ひ）= lửa; 火に気をつける = cẩn thận với lửa. Đáp án đúng là C: ひ. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v07",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "日本で こめは どれくらい 生産 されていますか。",
+        "options": [
+          "せいさん",
+          "せいせい",
+          "せいざん",
+          "せいぜい"
+        ],
+        "answer": 0,
+        "explanation": "生産（せいさん）= sản xuất. Đáp án đúng là A: せいさん. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v08",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "このへやは あかるいですね。",
+        "options": [
+          "暗るい",
+          "明るい",
+          "暑い",
+          "寒るい"
+        ],
+        "answer": 1,
+        "explanation": "明るい（あかるい）= sáng, trái nghĩa với 暗い. Đáp án đúng là B: 明るい. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v09",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "わたしは うんてんが すきじゃありません。",
+        "options": [
+          "連転",
+          "運動",
+          "運転",
+          "連動"
+        ],
+        "answer": 2,
+        "explanation": "運転（うんてん）= lái xe; 運動 là vận động. Đáp án đúng là C: 運転. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v10",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "どんな あじでしたか。",
+        "options": [
+          "声",
+          "色",
+          "音",
+          "味"
+        ],
+        "answer": 3,
+        "explanation": "味（あじ）= hương vị; 声/色/音 là giọng/màu/âm thanh. Đáp án đúng là D: 味. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v11",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "10時に おわるそうです。",
+        "options": [
+          "始わる",
+          "終わる",
+          "閉わる",
+          "開わる"
+        ],
+        "answer": 1,
+        "explanation": "終わる（おわる）= kết thúc, trái nghĩa với 始まる. Đáp án đúng là B: 終わる. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v12",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "そのいけんには はんたいです。",
+        "options": [
+          "反対",
+          "半対",
+          "反体",
+          "半体"
+        ],
+        "answer": 0,
+        "explanation": "反対（はんたい）= phản đối, trái ngược. Đáp án đúng là A: 反対. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v13",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "（　　）が あったら、わたしも 外国で しごとが したいです。",
+        "options": [
+          "サイン",
+          "メニュー",
+          "ニュース",
+          "チャンス"
+        ],
+        "answer": 3,
+        "explanation": "チャンス = cơ hội để làm việc ở nước ngoài. Đáp án đúng là D: チャンス. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v14",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "友だちが 来たので、わたしの すんでいる まちを（　　）して あげました。",
+        "options": [
+          "しゅっぱつ",
+          "あんない",
+          "よやく",
+          "じゅんび"
+        ],
+        "answer": 1,
+        "explanation": "案内（あんない）する = hướng dẫn, đưa đi tham quan. Đáp án đúng là B: あんない. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v15",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "この 魚は、日本には ほとんど いない（　　）魚です。",
+        "options": [
+          "めずらしい",
+          "はずかしい",
+          "きびしい",
+          "かなしい"
+        ],
+        "answer": 0,
+        "explanation": "珍しい（めずらしい）= hiếm, lạ. Đáp án đúng là A: めずらしい. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v16",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "ちかくに スーパーが ないので、かいものを するのに（　　）です。",
+        "options": [
+          "ざんねん",
+          "きけん",
+          "ふべん",
+          "むり"
+        ],
+        "answer": 2,
+        "explanation": "不便（ふべん）= bất tiện; mua sắm khó vì xa siêu thị. Đáp án đúng là C: ふべん. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v17",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "しゃしんを この かみに はりたいんですが、（　　）は ありますか。",
+        "options": [
+          "はさみ",
+          "のり",
+          "いと",
+          "はり"
+        ],
+        "answer": 1,
+        "explanation": "のり = keo dán ảnh lên giấy; はさみ là kéo. Đáp án đúng là B: のり. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v18",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "きのうの じこの ことが けさの 新聞に（　　）いました。",
+        "options": [
+          "のって",
+          "たって",
+          "のぼって",
+          "かかって"
+        ],
+        "answer": 0,
+        "explanation": "新聞に載る（のる）= được đăng trên báo. Đáp án đúng là A: のって. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v19",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "来週は、月よう日は ようじが ありますが、それ（　　）の日は だいじょうぶです。",
+        "options": [
+          "いない",
+          "いじょう",
+          "いか",
+          "いがい"
+        ],
+        "answer": 3,
+        "explanation": "以外（いがい）= ngoài/trừ ra; thứ Hai là ngày ngoại lệ. Đáp án đúng là D: いがい. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v20",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "この みちを まっすぐ（　　）と、右がわに としょかんが あります。",
+        "options": [
+          "でかける",
+          "うごく",
+          "たずねる",
+          "すすむ"
+        ],
+        "answer": 3,
+        "explanation": "進む（すすむ）= tiến lên; まっすぐ進む = đi thẳng. Đáp án đúng là D: すすむ. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-07-v21",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "もりさんは 何が ひつようですか。",
+        "options": [
+          "もりさんは 何が できますか。",
+          "もりさんは 何が いりますか。",
+          "もりさんは 何が すきですか。",
+          "もりさんは 何が きらいですか。"
+        ],
+        "answer": 1,
+        "explanation": "必要（ひつよう）= cần thiết, đồng nghĩa 要る（いる）. Đáp án đúng là B: もりさんは 何が いりますか。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v22",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "にんじんを こまかく きって ください。",
+        "options": [
+          "にんじんを みじかく きって ください。",
+          "にんじんを 小さく きって ください。",
+          "にんじんを ほそく きって ください。",
+          "にんじんを まるく きって ください。"
+        ],
+        "answer": 1,
+        "explanation": "細かく切る = cắt nhỏ; 小さく切る tương đương. Đáp án đúng là B: にんじんを 小さく きって ください。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v23",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "あそこに いるのが ちょうじょです。",
+        "options": [
+          "あそこに いるのが 1ばんめの むすこです。",
+          "あそこに いるのが 2ばんめの むすめです。",
+          "あそこに いるのが 1ばんめの むすめです。",
+          "あそこに いるのが 2ばんめの むすこです。"
+        ],
+        "answer": 2,
+        "explanation": "長女（ちょうじょ）= con gái đầu lòng, 1番目の娘. Đáp án đúng là C: あそこに いるのが 1ばんめの むすめです。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v24",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "たなかさんは にこにこして いました。",
+        "options": [
+          "たなかさんは つかれて いました。",
+          "たなかさんは こまって いました。",
+          "たなかさんは わらって いました。",
+          "たなかさんは 休んで いました。"
+        ],
+        "answer": 2,
+        "explanation": "にこにこする = mỉm cười; 笑っていました = đang cười. Đáp án đúng là C: たなかさんは わらって いました。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v25",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "ていねい",
+        "options": [
+          "ホテルの 人は とても ていねいな ことばで 話します。",
+          "にゅうがくしきの ときは みんな ていねいな ふくを きて いました。",
+          "かぞくの たんじょうびに ていねいな レストランに 行きました。",
+          "この まちには 古くて ていねいな おてらが たくさん あります。"
+        ],
+        "answer": 0,
+        "explanation": "丁寧（ていねい）な言葉 = lời nói lịch sự. Đáp án đúng là A: ホテルの 人は とても ていねいな ことばで 話します。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v26",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "たおれる",
+        "options": [
+          "つよい かぜで、にわの 木が たおれました。",
+          "いすの 上に コートが たおれて います。",
+          "本を いれすぎて、かばんから 本が たおれました。",
+          "木の まわりに りんごが たくさん たおれて います。"
+        ],
+        "answer": 0,
+        "explanation": "倒れる（たおれる）= đổ/ngã; cây ngã do gió. Đáp án đúng là A: つよい かぜで、にわの 木が たおれました。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v27",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "きんじょ",
+        "options": [
+          "この 国の 人口は、40さいの きんじょの 人が いちばん 多いです。",
+          "きょねんの 11月の きんじょは 日本に いました。",
+          "くちの きんじょに ソースが ついて いますよ。",
+          "うちの きんじょには 大きな スーパーが ありません。"
+        ],
+        "answer": 3,
+        "explanation": "近所（きんじょ）= khu vực gần nhà, lân cận. Đáp án đúng là D: うちの きんじょには 大きな スーパーが ありません。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-v28",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "ひろう",
+        "options": [
+          "そこの れいぞうこから のみものを ひろって ください。",
+          "はやしさんの かばんが いすから おちたので、ひろって あげました。",
+          "かべに はって ある ポスターを ぜんぶ ひろいました。",
+          "その ほんだなの 上に ある はこを ひろって もらえませんか。"
+        ],
+        "answer": 1,
+        "explanation": "拾う（ひろう）= nhặt; nhặt túi rơi khỏi ghế. Đáp án đúng là B: はやしさんの かばんが いすから おちたので、ひろって あげました。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-07-g03",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "A「すみません。この近くに バスは ありますか。」\nB「ああ、バス（　　　）あの スーパーの 前ですよ。」",
+        "options": [
+          "では",
+          "が",
+          "なら",
+          "に"
+        ],
+        "answer": 2,
+        "explanation": "なら dùng để nêu chủ đề 'nếu hỏi về xe buýt thì...'. Đáp án C: なら. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-g06",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "きのう 私は 一日（　　　）家に いました。",
+        "options": [
+          "しか",
+          "ごろ",
+          "間",
+          "中"
+        ],
+        "answer": 3,
+        "explanation": "一日中（いちにちじゅう）nghĩa là suốt cả ngày. Đáp án D: 中. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-g07",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "ズボンのポケットにレシートを（　　　）まま、洗濯してしまいました。",
+        "options": [
+          "入れ",
+          "入れた",
+          "入れる",
+          "入れて"
+        ],
+        "answer": 1,
+        "explanation": "Vたまま mô tả trạng thái được giữ nguyên; 入れたまま = để nguyên trong túi. Đáp án B: 入れた. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-g09",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "山下「シンさん、日本語の クラスの 先生は どんな 人？」\nシン「ええと、しゅくだいが 多いのは ちょっと（　　　）、おもしろくて いい 先生だよ。」",
+        "options": [
+          "大変だから",
+          "大変だけど",
+          "大変じゃないから",
+          "大変じゃないけど"
+        ],
+        "answer": 1,
+        "explanation": "大変だけど có nghĩa 'dù hơi vất vả nhưng...' diễn tả ý đối lập. Đáp án B: 大変だけど. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-g11",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "（会社で）「コピーはもう終わりましたか。」「あ、これから（　　　）。」",
+        "options": [
+          "コピーし ています",
+          "コピーする ところです",
+          "コピーして あります",
+          "コピーした ところです"
+        ],
+        "answer": 1,
+        "explanation": "Vるところです = chuẩn bị bắt đầu làm, これから là từ gợi ý. Đáp án B: コピーする ところです. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-g12",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "（で）\n「あのう、さくらデパートへ（　　　）。」\nけいさつかん「さくらデパートですね。あのしんごうを 右に曲がって、まっすぐ 行ってください。」",
+        "options": [
+          "行きませんが",
+          "行きませんか",
+          "行きたいんですが",
+          "行きたいんですか"
+        ],
+        "answer": 2,
+        "explanation": "Vたいんですが mở lời nhờ người khác chỉ đường một cách lịch sự. Đáp án C: 行きたいんですが. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-07-r22",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "グループ研究について、リサさんがこのメールで言いたいことはどれですか。",
+        "sub": "これはリサさんが大学のクラスメートに書いたメールです。\nAグループのみなさん\n今日、先生に「グループ研究で何をするか決めましたか。明日の3時までですよ。」と言われました。先週考えた二つのアイデアのどちらにするか、明日の昼休みに、学生食堂で食べながら決めませんか。来られない人は、メールで意見を知らせてください。\nリサ",
+        "options": [
+          "何をするか、先生にメールで知らせてください。",
+          "何をするか、新しいアイデアを私にメールで知らせてください。",
+          "何をするか、明日の昼休みに集まって決めましょう。",
+          "何をするか、相談する時間を決めましょう。"
+        ],
+        "answer": 2,
+        "explanation": "メール đề nghị cả nhóm đến căn tin vào giờ nghỉ trưa ngày mai để quyết định giữa hai ý tưởng đã bàn, không yêu cầu nghĩ phương án mới."
+      },
+      {
+        "id": "2025-07-r23",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "一緒に行かないかもしれませんとありますが、どうしてですか。",
+        "sub": "映画を見てよく泣く私は、だれかと一緒に映画を見に行ったことがありません。知っている人に泣いている自分を見られるのが嫌なので、いつも映画館へは一人で行きます。ですから、もし好きな人に映画に誘われても、一緒に行かないかもしれません。",
+        "options": [
+          "好きな人と一緒にいる自分を、だれかに見られるのが嫌だから",
+          "だれかと一緒に映画を見に行ったことがないから",
+          "好きな人が泣いているところを、見たくないから",
+          "泣いているところを、好きな人に見られたくないから"
+        ],
+        "answer": 3,
+        "explanation": "Người kể không muốn người mình thích nhìn thấy mình khóc khi xem phim nên có thể từ chối đi cùng."
+      },
+      {
+        "id": "2025-07-r24",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "7月11日の営業時間について、このポスターからわかることは、どれですか。",
+        "sub": "お知らせ\n水道工事を行いますので、7月11日（水）は営業時間が変わります。\n営業時間：午前9時～午後10時\n↓\n午後1時～午後10時\n※雨のときは工事を行いませんので、営業時間は変わりません。\nよろしくお願いします。",
+        "options": [
+          "雨が降ったら、店が開く時間がいつもより早くなります。",
+          "雨が降ったら、店が開く時間がいつもより遅くなります。",
+          "雨が降らなかったら、店が開く時間がいつもより早くなります。",
+          "雨が降らなかったら、店が開く時間がいつもより遅くなります。"
+        ],
+        "answer": 3,
+        "explanation": "Nếu trời mưa thì không sửa nước và mở 9 giờ như thường lệ. Nếu không mưa thì mở 13 giờ, muộn hơn bình thường."
+      },
+      {
+        "id": "2025-07-r25",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "どうして「私」は①「えっ？」と思いましたか。",
+        "sub": "日本のデパートでは、いつも音楽が聞こえていますが、私は最近、面白いことを知りました。\n先週、さくらデパートへ買い物に行きました。シャツを買って袋に入れてもらっているとき、店員が「外は雨のようですから、袋は紙じゃないのにしますね。」と言いました。私は①「えっ？」と思いましたが、「お願いします。」と言いました。私が来たときはいい天気だったのに、どうして店員が雨だと思ったか、わからなかったのです。周りには窓もないし、傘を持っている人もいませんでした。私は買い物のあと、すぐにデパートを出ました。外は本当に雨が降っていました。\n次の日、大学の先輩の北村さんに会いました。北村さんはデパートでアルバイトをしているので、何か知っているかもしれないと思って、前の日のことを②話してみました。北村さんは笑って、「日本のデパートでは普通、雨が降ったときややんだときに特別な音楽に変えるんだよ。だから、店員は天気がわかるんだよ。」と教えてくれました。\nデパートの音楽は、客を楽しい気持ちにするためのものだと思っていました。でも、ほかにも意味があるのです。面白いと思いました。",
+        "options": [
+          "店員が雨だと思った理由が、わからなかったから",
+          "店員の言ったことが、よく聞こえなかったから",
+          "店員がシャツを袋に入れてくれなかったから",
+          "シャツを袋に入れる必要はないと思ったから"
+        ],
+        "answer": 0,
+        "explanation": "Nhân viên biết trời mưa dù trong bách hóa không có cửa sổ, không có khách cầm ô; người kể không hiểu lý do."
+      },
+      {
+        "id": "2025-07-r26",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "②話してみましたとありますが、どうして「私」は北村さんに話しましたか。",
+        "sub": "日本のデパートでは、いつも音楽が聞こえていますが、私は最近、面白いことを知りました。\n先週、さくらデパートへ買い物に行きました。シャツを買って袋に入れてもらっているとき、店員が「外は雨のようですから、袋は紙じゃないのにしますね。」と言いました。私は①「えっ？」と思いましたが、「お願いします。」と言いました。私が来たときはいい天気だったのに、どうして店員が雨だと思ったか、わからなかったのです。周りには窓もないし、傘を持っている人もいませんでした。私は買い物のあと、すぐにデパートを出ました。外は本当に雨が降っていました。\n次の日、大学の先輩の北村さんに会いました。北村さんはデパートでアルバイトをしているので、何か知っているかもしれないと思って、前の日のことを②話してみました。北村さんは笑って、「日本のデパートでは普通、雨が降ったときややんだときに特別な音楽に変えるんだよ。だから、店員は天気がわかるんだよ。」と教えてくれました。\nデパートの音楽は、客を楽しい気持ちにするためのものだと思っていました。でも、ほかにも意味があるのです。面白いと思いました。",
+        "options": [
+          "北村さんが働いているデパートでアルバイトをしたかったから",
+          "北村さんが、前の日の天気のことを覚えていると思ったから",
+          "北村さんが、デパートのことをよく知っていると思ったから",
+          "北村さんと好きな音楽のことを話したかったから"
+        ],
+        "answer": 2,
+        "explanation": "先輩 北村さん từng làm thêm tại bách hóa, nên người kể nghĩ anh ấy có thể biết vì sao nhân viên biết trời mưa."
+      },
+      {
+        "id": "2025-07-r27",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "「私」は、北村さんと話して、どんなことを知りましたか。",
+        "sub": "日本のデパートでは、いつも音楽が聞こえていますが、私は最近、面白いことを知りました。\n先週、さくらデパートへ買い物に行きました。シャツを買って袋に入れてもらっているとき、店員が「外は雨のようですから、袋は紙じゃないのにしますね。」と言いました。私は①「えっ？」と思いましたが、「お願いします。」と言いました。私が来たときはいい天気だったのに、どうして店員が雨だと思ったか、わからなかったのです。周りには窓もないし、傘を持っている人もいませんでした。私は買い物のあと、すぐにデパートを出ました。外は本当に雨が降っていました。\n次の日、大学の先輩の北村さんに会いました。北村さんはデパートでアルバイトをしているので、何か知っているかもしれないと思って、前の日のことを②話してみました。北村さんは笑って、「日本のデパートでは普通、雨が降ったときややんだときに特別な音楽に変えるんだよ。だから、店員は天気がわかるんだよ。」と教えてくれました。\nデパートの音楽は、客を楽しい気持ちにするためのものだと思っていました。でも、ほかにも意味があるのです。面白いと思いました。",
+        "options": [
+          "デパートでは、どの店員もいつも天気を調べていること",
+          "デパートでは、音楽で店員に天気を知らせていること",
+          "デパートの音楽が、店員を楽しい気持ちにしていること",
+          "デパートの音楽が、客を楽しい気持ちにしていること"
+        ],
+        "answer": 1,
+        "explanation": "Các trung tâm thương mại thay đổi bản nhạc khi mưa bắt đầu/ngừng để truyền tín hiệu thời tiết đến nhân viên."
+      },
+      {
+        "id": "2025-07-r28",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "ハンナさんは、土曜日にガラス教室のクラスを受けたいと思っています。1時間以内に終わって、クラスの料金が2,000円より安いものがいいです。ハンナさんが選べるクラスはどれですか。",
+        "sub": "前山ガラス美術館\nガラス教室のご案内\n前山ガラス美術館では、お皿やアクセサリーを作る教室を開いています。\n※クラスを受ける人は、前山ガラス美術館に入る料金はかかりません。\n＜予約＞\n受けたいクラスがある日の2日前の12時までに、電話で予約してください。電話は美術館の営業時間にお願いします。\n＜集まる場所＞\nクラスが始まる時間の10分前までに、美術館の受付に来てください。\n＜注意＞\nクラスで作った物は、ガラスの温度が下がるまで一晩かかるので、持って帰ることができるのは、次の日からです。別料金で、家に送ることもできます。\n\nクラス・曜日・時間・料金\n① お皿｜土曜日｜10:00–10:30｜1,500円\n② グラス｜日曜日｜11:00–11:40｜1,800円\n③ アクセサリー｜土曜日｜10:00–10:30｜2,500円\n④ 花瓶｜土曜日｜11:00–12:30｜1,800円",
+        "options": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "answer": 0,
+        "explanation": "① là lớp duy nhất đồng thời học thứ Bảy, trong 1 giờ và phí dưới 2.000円: làm đĩa 30 phút với 1.500円."
+      },
+      {
+        "id": "2025-07-r29",
+        "type": "reading",
+        "section": "language",
+        "task": "読解・情報検索",
+        "prompt": "ヨハンさんは、10月15日（土）の③のクラスを受けたいと思っています。ヨハンさんは、いつまでに予約しなければなりませんか。そして、15日は何時までに受付に行かなければなりませんか。",
+        "sub": "前山ガラス美術館\nガラス教室のご案内\n前山ガラス美術館では、お皿やアクセサリーを作る教室を開いています。\n※クラスを受ける人は、前山ガラス美術館に入る料金はかかりません。\n＜予約＞\n受けたいクラスがある日の2日前の12時までに、電話で予約してください。電話は美術館の営業時間にお願いします。\n＜集まる場所＞\nクラスが始まる時間の10分前までに、美術館の受付に来てください。\n＜注意＞\nクラスで作った物は、ガラスの温度が下がるまで一晩かかるので、持って帰ることができるのは、次の日からです。別料金で、家に送ることもできます。\n\nクラス・曜日・時間・料金\n① お皿｜土曜日｜10:00–10:30｜1,500円\n② グラス｜日曜日｜11:00–11:40｜1,800円\n③ アクセサリー｜土曜日｜10:00–10:30｜2,500円\n④ 花瓶｜土曜日｜11:00–12:30｜1,800円",
+        "options": [
+          "13日の12時までに予約します。15日は10時までに行きます。",
+          "13日の12時まで\tに予約します。15日は10時の10分前までに行きます。",
+          "14日の12時までに予約します。15日は10時までに行きます。",
+          "14日の12時までに予約します。15日は10時の10分前までに行きます。"
+        ],
+        "answer": 1,
+        "explanation": "Phải gọi đặt trước 2 ngày trước 12 giờ ngày 13/10; lớp bắt đầu 10:00 ngày 15/10 nên phải có mặt trước 9:50."
+      }
+    ]
+  },
+  {
+    "id": "n4-doc-2025-12",
+    "title": "Tháng 12/2025 · Trích từ tài liệu",
+    "year": 2025,
+    "session": "12",
+    "status": "partial",
+    "sourceNote": "File Word đề tháng 12 ghi 'Đề luyện JLPT N4 Đề 2'; không xác nhận là đề chính thức. Loại câu hỏng ký tự và chưa có phần nghe.",
+    "questions": [
+      {
+        "id": "2025-12-v01",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "紙は そこに ありますから、つかって ください。",
+        "options": [
+          "つくえ",
+          "かみ",
+          "さら",
+          "はし"
+        ],
+        "answer": 1,
+        "explanation": "紙（かみ）= giấy; không phải bàn hay đĩa. Đáp án đúng là B: かみ. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v02",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "やまださんは 日本の 地理に ついて よく しっています。",
+        "options": [
+          "ちり",
+          "じり",
+          "ちりい",
+          "じりい"
+        ],
+        "answer": 0,
+        "explanation": "地理（ちり）= địa lý. Đáp án đúng là A: ちり. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v03",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "ここで 泳がないで ください。",
+        "options": [
+          "ぬがないで",
+          "さわがないで",
+          "いそがないで",
+          "およがないで"
+        ],
+        "answer": 3,
+        "explanation": "泳ぐ（およぐ）= bơi, 泳がないで = đừng bơi. Đáp án đúng là D: およがないで. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v04",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "たなかさんが にもつを 運んで いました。",
+        "options": [
+          "えらんで",
+          "ふんで",
+          "はこんで",
+          "つつんで"
+        ],
+        "answer": 2,
+        "explanation": "運ぶ（はこぶ）= mang, vận chuyển hành lý. Đáp án đúng là C: はこんで. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v05",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "これは 特別な しなものです。",
+        "options": [
+          "とくべつ",
+          "とくぶつ",
+          "どくべつ",
+          "どくぶつ"
+        ],
+        "answer": 0,
+        "explanation": "特別（とくべつ）= đặc biệt. Đáp án đúng là A: とくべつ. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v06",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "もっと 軽い のを ください。",
+        "options": [
+          "まるい",
+          "ほそい",
+          "かるい",
+          "やわらかい"
+        ],
+        "answer": 2,
+        "explanation": "軽い（かるい）= nhẹ; trái với 重い. Đáp án đúng là C: かるい. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v07",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "漢字読み",
+        "prompt": "きれいな 色ですね。",
+        "options": [
+          "うた",
+          "いろ",
+          "おと",
+          "とり"
+        ],
+        "answer": 1,
+        "explanation": "色（いろ）= màu sắc. Đáp án đúng là B: いろ. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v08",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "車が こわれて、うごきません。",
+        "options": [
+          "勤めません",
+          "働きません",
+          "助きません",
+          "動きません"
+        ],
+        "answer": 3,
+        "explanation": "動く（うごく）= hoạt động, chuyển động; xe hỏng không chạy. Đáp án đúng là D: 動きません. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v09",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "いっしょに ゆうはんを 買いに 行きましょう。",
+        "options": [
+          "夜飲",
+          "夜飯",
+          "夕飲",
+          "夕飯"
+        ],
+        "answer": 3,
+        "explanation": "夕飯（ゆうはん）= cơm tối, bữa tối. Đáp án đúng là D: 夕飯. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v10",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "その もんだいを かんがえています。",
+        "options": [
+          "勉えて",
+          "思えて",
+          "考えて",
+          "答えて"
+        ],
+        "answer": 2,
+        "explanation": "考える（かんがえる）= suy nghĩ, cân nhắc. Đáp án đúng là C: 考えて. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v11",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "あす こうじょう を 見学します。",
+        "options": [
+          "工事",
+          "工場",
+          "公場",
+          "公事"
+        ],
+        "answer": 1,
+        "explanation": "工場（こうじょう）= nhà máy; 工事 = công trình xây dựng. Đáp án đúng là B: 工場. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v12",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "表記",
+        "prompt": "わたしの いえは ここから とおいです。",
+        "options": [
+          "遠い",
+          "通い",
+          "近い",
+          "逆い"
+        ],
+        "answer": 0,
+        "explanation": "遠い（とおい）= xa, trái với 近い. Đáp án đúng là A: 遠い. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v13",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "先月 りょこうを した とき、とても いい ホテルに（　　）。",
+        "options": [
+          "のこりました",
+          "とまりました",
+          "つづきました",
+          "かえりました"
+        ],
+        "answer": 1,
+        "explanation": "泊まる（とまる）= lưu trú qua đêm ở khách sạn. Đáp án đúng là B: とまりました. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v14",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "これは そふから もらった（　　）とけいですから、かす ことは できません。",
+        "options": [
+          "たいへんな",
+          "じゅうぶんな",
+          "だいじな",
+          "ねっしんな"
+        ],
+        "answer": 2,
+        "explanation": "大事（だいじ）な = quan trọng, quý giá; chiếc đồng hồ của ông. Đáp án đúng là C: だいじな. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v15",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "雨で うでや 足が ぬれたので、（　　）を かして ください。",
+        "options": [
+          "レンジ",
+          "アイロン",
+          "シャンプー",
+          "タオル"
+        ],
+        "answer": 3,
+        "explanation": "タオル = khăn; cần dùng khăn lau sau khi dính mưa. Đáp án đúng là D: タオル. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v16",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "子どもの びょうきが なおったので、（　　）しました。",
+        "options": [
+          "あんしん",
+          "しんぱい",
+          "しょうち",
+          "せわ"
+        ],
+        "answer": 0,
+        "explanation": "安心（あんしん）する = yên tâm khi con đã khỏi bệnh. Đáp án đúng là A: あんしん. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v17",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "こくばんの じが うすくて、（　　）見えません。",
+        "options": [
+          "ゆっくり",
+          "はっきり",
+          "ていねいに",
+          "じゆうに"
+        ],
+        "answer": 1,
+        "explanation": "はっきり = rõ ràng; chữ trên bảng mờ nên nhìn không rõ. Đáp án đúng là B: はっきり. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v18",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "ひとの 多い ばしょは すきじゃ ないので、（　　）に すみたいです。",
+        "options": [
+          "とかい",
+          "いなか",
+          "じゅうしょ",
+          "あたり"
+        ],
+        "answer": 1,
+        "explanation": "田舎（いなか）= vùng quê; người nói không thích đông đúc. Đáp án đúng là B: いなか. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v19",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "おゆが（　　）ので、おちゃを 入れましょう。",
+        "options": [
+          "うまれた",
+          "やけた",
+          "わいた",
+          "まわった"
+        ],
+        "answer": 2,
+        "explanation": "お湯が沸く（わく）= nước sôi; 沸いた là thể quá khứ. Đáp án đúng là C: わいた. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v20",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "文脈規定",
+        "prompt": "そふには あさ さんぽを する（　　）が あります。",
+        "options": [
+          "きょうみ",
+          "にんき",
+          "けいけん",
+          "しゅうかん"
+        ],
+        "answer": 3,
+        "explanation": "習慣（しゅうかん）= thói quen đi dạo mỗi sáng. Đáp án đúng là D: しゅうかん. Các phương án còn lại có cách đọc, chữ viết hoặc nghĩa không khớp với ngữ cảnh."
+      },
+      {
+        "id": "2025-12-v21",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "かぐの うりばは 2かいです。",
+        "options": [
+          "いすや テーブルの うりばは 2かいです。",
+          "かばんや さいふの うりばは 2かいです。",
+          "テレビや れいぞうこの うりばは 2かいです。",
+          "ノートや ペンの うりばは 2かいです。"
+        ],
+        "answer": 0,
+        "explanation": "家具（かぐ）= nội thất, gồm bàn ghế. Đáp án đúng là A: いすや テーブルの うりばは 2かいです。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v22",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "たなかさんは さとうさんに あやまりました。",
+        "options": [
+          "たなかさんは さとうさんに 「おめでとう」と 言いました。",
+          "たなかさんは さとうさんに 「さようなら」と 言いました。",
+          "たなかさんは さとうさんに 「ごめんなさい」と 言いました。",
+          "たなかさんは さとうさんに 「ごくろうさま」と 言いました。"
+        ],
+        "answer": 2,
+        "explanation": "謝る（あやまる）= xin lỗi, nói ごめんなさい. Đáp án đúng là C: たなかさんは さとうさんに 「ごめんなさい」と 言いました。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v23",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "すずきさんは どくしんです。",
+        "options": [
+          "すずきさんは けっこんして いません。",
+          "すずきさんは けっこんして います。",
+          "すずきさんは 一人で すんで います。",
+          "すずきさんは かぞくと すんで います。"
+        ],
+        "answer": 0,
+        "explanation": "独身（どくしん）= độc thân, chưa kết hôn. Đáp án đúng là A: すずきさんは けっこんして いません。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v24",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "言い換え",
+        "prompt": "うちの 犬は とても おとなしいです。",
+        "options": [
+          "うちの 犬は とても 元気です。",
+          "うちの 犬は とても うるさいです。",
+          "うちの 犬は とても かわいいです。",
+          "うちの 犬は とても しずかです。"
+        ],
+        "answer": 3,
+        "explanation": "おとなしい = hiền và trầm; gần nghĩa với 静か. Đáp án đúng là D: うちの 犬は とても しずかです。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v25",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "うんてん",
+        "options": [
+          "この パソコンの うんてんの しかたが わかりますか。",
+          "わたしは 車の うんてんは できません。",
+          "その カメラは 古いので、もう うんてんは できません。",
+          "はやしさんは ピアノの うんてんが じょうずです。"
+        ],
+        "answer": 1,
+        "explanation": "運転（うんてん）dùng cho việc lái xe ô tô, không dùng với đàn piano. Đáp án đúng là B: わたしは 車の うんてんは できません。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v26",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "あさい",
+        "options": [
+          "おとうとは わたしより せが あさいです。",
+          "この グラスは あさいので、われやすいです。",
+          "この プールは あさいですから、子どもも 入って あそべます。",
+          "電話の おとが あさくて、よく 聞こえません。"
+        ],
+        "answer": 2,
+        "explanation": "浅い（あさい）= cạn, nông; bể bơi nông. Đáp án đúng là C: この プールは あさいですから、子どもも 入って あそべます。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v27",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "しょうかい",
+        "options": [
+          "リーさんが じぶんの 国の たべものを しょうかいして くれました。",
+          "学校に 来なかった ともだちに、しゅくだいを しょうかいして あげました。",
+          "せんせいに まいにち はつおんを しょうかいして もらって、じょうずに なりました。",
+          "もりさんに あしたの テストは ちゅうしだと しょうかいして ください。"
+        ],
+        "answer": 0,
+        "explanation": "紹介（しょうかい）= giới thiệu; giới thiệu món ăn đất nước mình. Đáp án đúng là A: リーさんが じぶんの 国の たべものを しょうかいして くれました。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-v28",
+        "type": "word",
+        "section": "vocabulary",
+        "task": "用法",
+        "prompt": "にる",
+        "options": [
+          "足に にて いない くつは とても あるきにくいです。",
+          "わたしの いもうとは 母と こえが にて います。",
+          "けっこんするなら、年が にて いる ひとが いいです。",
+          "まだ 9月ですが、今日は とても さむくて、ふゆに にて います。"
+        ],
+        "answer": 1,
+        "explanation": "似る（にる）= giống; giọng nói của em gái giống mẹ. Đáp án đúng là B: わたしの いもうとは 母と こえが にて います。. Chú ý lựa chọn diễn đạt tương đương hoặc cách dùng từ tự nhiên trong câu."
+      },
+      {
+        "id": "2025-12-g01",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "バターは ぎゅうにゅう（　　）作られます。",
+        "options": [
+          "が",
+          "から",
+          "に",
+          "まで"
+        ],
+        "answer": 1,
+        "explanation": "Nから作られる = được làm từ nguyên liệu; bơ làm từ sữa. Đáp án B: から. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-12-g05",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "私はアイスクリームが好きです。（　　　）いちごのアイスクリームが好きです。",
+        "options": [
+          "とくに",
+          "かならず",
+          "よく",
+          "だんだん"
+        ],
+        "answer": 0,
+        "explanation": "とくに = nhất là, đặc biệt là, nhấn mạnh kem dâu. Đáp án A: とくに. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      },
+      {
+        "id": "2025-12-g11",
+        "type": "grammar",
+        "section": "language",
+        "task": "文法・文型",
+        "prompt": "近くでできるアルバイトをずっと探していましたが、やっと（　　　）。仕事は明日からです。",
+        "options": [
+          "見つかります",
+          "見つかりません",
+          "見つかりました",
+          "見つかりませんでした"
+        ],
+        "answer": 2,
+        "explanation": "やっと見つかりました = cuối cùng đã tìm thấy sau thời gian tìm lâu. Đáp án C: 見つかりました. Các phương án khác không đúng cách kết hợp/ngữ cảnh ngữ pháp này."
+      }
+    ]
+  }
+]
