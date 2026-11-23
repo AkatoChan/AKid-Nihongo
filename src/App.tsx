@@ -8,13 +8,14 @@ import {
 } from 'lucide-react';
 import { loadContent, grammarMeaning, searchable, vocabMeaning } from './lib/content';
 import { makeQuiz, makeReadingQuiz, makeFullMock, shuffle } from './lib/quiz';
+import PastPapers from './components/PastPapers';
 import {
   exportBackup, getLogs, getPref, getProgress, getQuizzes, importBackup, initStorage,
   rateWord, saveQuiz, setPref, storageMode
 } from './lib/storage';
 import type { Content, CompoundEntry, ExamSection, Grammar, Kanji, Question, QuizResult, Reading, ReviewLog, Vocab, WordProgress } from './lib/types';
 
-type Page='dashboard'|'vocab'|'flashcards'|'grammar'|'kanji'|'reading'|'exam'|'stats'|'settings';
+type Page='dashboard'|'vocab'|'flashcards'|'grammar'|'kanji'|'reading'|'exam'|'past'|'stats'|'settings';
 type ExamMode='quick'|'mock'|'grammar'|'reading';
 type Exam={mode:ExamMode; questions:Question[]; index:number; answers:Record<number,number>; started:number; phaseIndex:number; phaseStarted:number; finished:boolean; saved:boolean};
 const phaseOrder:ExamSection[]=['vocabulary','language','listening'];
@@ -23,7 +24,7 @@ const phaseNames=['Từ vựng · 文字・語彙','Ngữ pháp & Đọc hiểu 
 const navSections:{title:string;items:{id:Page;label:string;icon:LucideIcon}[]}[]=[
   {title:'TỔNG QUAN',items:[{id:'dashboard',label:'Tổng quan',icon:LayoutDashboard},{id:'stats',label:'Tiến độ học tập',icon:ChartNoAxesCombined}]},
   {title:'HỌC TẬP',items:[{id:'vocab',label:'Từ vựng',icon:BookOpen},{id:'flashcards',label:'Flashcards',icon:Layers3},{id:'grammar',label:'Ngữ pháp',icon:BookText},{id:'kanji',label:'Kanji',icon:WandSparkles},{id:'reading',label:'Đọc hiểu',icon:BookOpen}]},
-  {title:'LUYỆN THI',items:[{id:'exam',label:'Luyện đề N4',icon:GraduationCap}]}
+  {title:'LUYỆN THI',items:[{id:'exam',label:'Luyện đề N4',icon:GraduationCap},{id:'past',label:'Giải đề theo năm',icon:BookText}]}
 ];
 const formatTime=(s:number)=>`${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
 const dateKey=(ms:number)=>{const d=new Date(ms);return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`};
@@ -102,7 +103,7 @@ export default function App(){
   };
   const remain=exam?.mode==='mock'?Math.max(0,phaseLimits[exam.phaseIndex]-Math.floor((clock-exam.phaseStarted)/1000)):null;
   useEffect(()=>{if(exam&&!exam.finished&&remain===0)nextSection()},[remain,exam?.finished]);
-  const heading=({dashboard:'Tổng quan',vocab:'Kho từ vựng',flashcards:'Flashcards',grammar:'Ngữ pháp N4',kanji:'Kanji N4',reading:'Luyện đọc hiểu',exam:'Luyện đề JLPT N4',stats:'Tiến độ học tập',settings:'Cài đặt'})[page];
+  const heading=({dashboard:'Tổng quan',vocab:'Kho từ vựng',flashcards:'Flashcards',grammar:'Ngữ pháp N4',kanji:'Kanji N4',reading:'Luyện đọc hiểu',exam:'Luyện đề JLPT N4',past:'Giải đề theo năm',stats:'Tiến độ học tập',settings:'Cài đặt'})[page];
   if(error)return <div className="fatal"><CircleHelp size={38}/><h1>Không thể khởi tạo ứng dụng</h1><p>{error}</p><p>Hãy kiểm tra thư mục <code>public/content</code> và quyền truy cập SQLite.</p></div>;
   if(!content)return <div className="app-loading"><div className="load-logo">日</div><h2>Nihongo Master N4</h2><p>Đang nạp tài liệu offline...</p></div>;
   return <div className="app-shell">
@@ -135,7 +136,8 @@ export default function App(){
         {page==='grammar'&&<GrammarPage grammar={content.grammar} onTest={()=>makeStart('grammar')} notify={notify}/>}
         {page==='kanji'&&<KanjiPage kanji={content.kanji} vocab={content.vocab} manualVi={content.manualVi} compounds={content.kanjiCompounds} notify={notify}/>}
         {page==='reading'&&<ReadingPage readings={content.readings} notify={notify} onSave={async(score,total)=>{await saveQuiz({mode:'reading',score,total,duration_seconds:0,created_at:Date.now()});await refresh()}}/>}
-        {page==='exam'&&(exam?<ExamPanel exam={exam} timeLeft={remain} setExam={setExam} onFinish={nextSection} onRestart={()=>setExam(null)} notify={notify}/>:<ExamHome content={content} onStart={makeStart} quizzes={quizzes}/>)}
+        {page==='exam'&&(exam?<ExamPanel exam={exam} timeLeft={remain} setExam={setExam} onFinish={nextSection} onRestart={()=>setExam(null)} notify={notify}/>:<ExamHome content={content} onStart={makeStart} quizzes={quizzes} onPast={()=>setPage('past')}/>)}
+        {page==='past'&&<PastPapers papers={content.pastPapers} notify={notify} onSave={async (mode,score,total,duration_seconds)=>{await saveQuiz({mode,score,total,duration_seconds,created_at:Date.now()});await refresh()}}/>}
         {page==='stats'&&<Stats content={content} progress={progress} quizzes={quizzes} logs={logs} streak={streak} goal={goal}/>}
         {page==='settings'&&<Settings content={content} goal={goal} setGoal={async n=>{setGoal(n);await setPref('dailyGoal',String(n))}} dark={dark} setDark={async n=>{setDark(n);await setPref('theme',n?'dark':'light')}} notify={notify} onImport={refresh}/>}
       </div></div>
@@ -308,13 +310,14 @@ function ReadingPage({readings,notify,onSave}:{readings:Reading[];notify:(s:stri
       </div></div></div>
   </>;
 }
-function ExamHome({content,onStart,quizzes}:{content:Content;onStart:(m:ExamMode)=>void;quizzes:QuizResult[]}){
+function ExamHome({content,onStart,quizzes,onPast}:{content:Content;onStart:(m:ExamMode)=>void;quizzes:QuizResult[];onPast:()=>void}){
   const tests=[{mode:'mock' as const,icon:GraduationCap,title:'Đề mô phỏng JLPT N4 · 3 phần',desc:'Từ vựng 25′ · Ngữ pháp & đọc 55′ · Nghe 35′',details:'Câu hỏi tự biên soạn · 115 phút nếu dùng hết giờ',tone:'green'},
     {mode:'quick' as const,icon:Zap,title:'Kiểm tra nhanh',desc:'10 câu hỗn hợp · không giới hạn giờ',details:'Từ vựng + ngữ pháp',tone:'purple'},
     {mode:'grammar' as const,icon:BookText,title:'Bài kiểm tra ngữ pháp',desc:'10 câu chọn ý nghĩa mẫu câu',details:'Chuyên đề ngữ pháp',tone:'orange'},
     {mode:'reading' as const,icon:BookOpen,title:'Bài kiểm tra đọc hiểu',desc:'10 câu hỏi từ bài đọc',details:'Luyện đọc và hiểu ý',tone:'blue'}];
   return <><PageIntro label="PRACTICE · 模擬試験" title="Luyện đề JLPT N4" description="Luyện 3 phần theo khung thời gian N4, xem đáp án và giải thích sau khi nộp bài." icon={GraduationCap}/>
     <div className="exam-note"><Info size={19}/><p><b>Đây là đề mô phỏng tự biên soạn, không phải đề JLPT chính thức.</b> Có 3 phần và thời gian 25 / 55 / 35 phút theo khung N4, nhưng số câu, phân bố dạng bài và thang điểm chưa được chuẩn hóa. Phần nghe dùng giọng TTS tiếng Nhật sẵn có trên Windows; muốn thi thử với audio gốc hãy mở <a target="_blank" rel="noreferrer" href="https://www.jlpt.jp/e/samples/sampleindex.html">đề mẫu chính thức tại JLPT</a>.</p></div>
+    <div className="past-home-banner"><div><strong>Muốn giải đề theo kỳ thi?</strong><p>Chọn bộ tài liệu năm 2025, làm toàn bộ các câu đã nhập và xem lời giải chi tiết từng câu sai.</p></div><button className="btn btn-primary" type="button" onClick={onPast}>Giải đề theo năm <ChevronRight size={17}/></button></div>
     <div className="exam-structure"><div><strong>01 · 文字・語彙</strong><span>25 phút · chữ Hán, cách đọc, từ trong ngữ cảnh</span></div><div><strong>02 · 文法・読解</strong><span>55 phút · ngữ pháp, bài đọc dài</span></div><div><strong>03 · 聴解</strong><span>35 phút · nghe hội thoại tự biên soạn</span></div></div>
     <div className="exam-grid">{tests.map(t=><div key={t.mode} className="exam-card"><div className={`course-icon tone-${t.tone}`}><I icon={t.icon} size={27}/></div><h3>{t.title}</h3><p>{t.desc}</p><div className="exam-card-sub"><ShieldCheck size={16}/>{t.details}</div><button className="btn btn-primary" onClick={()=>onStart(t.mode)}>Làm bài <ChevronRight size={17}/></button></div>)}</div>
     <div className="card exam-history"><SectionTitle title="Lịch sử làm bài" eyebrow="GẦN ĐÂY"/>{quizzes.length?quizzes.slice(0,7).map((q,i)=><div className="history-row" key={`${q.created_at}-${i}`}><span className="history-icon"><CheckCircle2 size={17}/></span><span>{({quick:'Kiểm tra nhanh',grammar:'Ngữ pháp',reading:'Đọc hiểu',mock:'Đề mô phỏng 3 phần'})[q.mode]||q.mode}</span><strong>{q.score}/{q.total}</strong><small>{new Date(q.created_at).toLocaleDateString('vi-VN')}</small></div>):<p className="subtle">Chưa có bài kiểm tra nào.</p>}</div>

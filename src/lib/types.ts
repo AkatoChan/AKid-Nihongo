@@ -21,8 +21,9 @@ export interface Manifest {
 }
 export interface ExamBank { vocabulary: Question[]; grammar: Question[]; listening: Question[]; metadata?: { official: boolean; source: string; license: string } }
 export interface CompoundEntry { reading: string; meaning_vi: string; example_ja?: string; example_vi?: string }
+export interface PastPaper { id: string; title: string; year: number; session: string; status: 'partial' | 'complete'; sourceNote: string; questions: Question[] }
 export interface Content {
-  vocab: Vocab[]; grammar: Grammar[]; kanji: Kanji[]; readings: Reading[]; examBank: ExamBank; manualVi: Record<string,string>; kanjiCompounds: Record<string,CompoundEntry>; manifest: Manifest
+  vocab: Vocab[]; grammar: Grammar[]; kanji: Kanji[]; readings: Reading[]; examBank: ExamBank; manualVi: Record<string,string>; kanjiCompounds: Record<string,CompoundEntry>; pastPapers: PastPaper[]; manifest: Manifest
 }
 export interface WordProgress {
   word_id: string; ease: number; interval_days: number; repetitions: number;
